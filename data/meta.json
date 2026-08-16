@@ -1,11 +1,11 @@
 {
-  "lastSync": "2026-08-16T17:26:55.032Z",
-  "durationMs": 90043,
+  "lastSync": "2026-08-16T23:50:16.204Z",
+  "durationMs": 1947,
   "sources": [
     {
       "channel": "hn",
       "ok": true,
-      "count": 31
+      "count": 36
     },
     {
       "channel": "github",
@@ -34,9 +34,8 @@
     },
     {
       "channel": "huggingface",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 15
     },
     {
       "channel": "sspai",
@@ -45,15 +44,13 @@
     },
     {
       "channel": "reddit",
-      "ok": false,
-      "count": 0,
-      "error": "reddit 超时 (90s)"
+      "ok": true,
+      "count": 15
     },
     {
       "channel": "v2ex",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 10
     }
   ]
 }
