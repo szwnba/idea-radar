@@ -1,0 +1,59 @@
+{
+  "lastSync": "2026-08-16T17:26:55.032Z",
+  "durationMs": 90043,
+  "sources": [
+    {
+      "channel": "hn",
+      "ok": true,
+      "count": 31
+    },
+    {
+      "channel": "github",
+      "ok": true,
+      "count": 36
+    },
+    {
+      "channel": "producthunt",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "channel": "tldr",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "channel": "simonwillison",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "channel": "ruanyf",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "channel": "huggingface",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "channel": "sspai",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "channel": "reddit",
+      "ok": false,
+      "count": 0,
+      "error": "reddit 超时 (90s)"
+    },
+    {
+      "channel": "v2ex",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    }
+  ]
+}

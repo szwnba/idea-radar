@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  /* 琥珀磷光雷达站 — 老式 CRT 仪表配色 */
+  --color-night: #0b1220;
+  --color-panel: #121b2e;
+  --color-raised: #16213a;
+  --color-edge: #1f2c47;
+  --color-phosphor: #ffb454;
+  --color-hot: #ff6b4a;
+  --color-linkblue: #7db1ff;
+  --color-paper: #e9e4d6;
+  --color-dim: #8a94ad;
+
+  --font-sans: "Noto Sans SC Variable", "Noto Sans SC", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(1100px 520px at 24% -8%, rgba(255, 180, 84, 0.05), transparent 60%),
+    var(--color-night);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(255, 180, 84, 0.28);
+  color: var(--color-paper);
+}
+
+/* 细暗滚动条 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-edge) transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-edge);
+  border-radius: 4px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 1.5px solid var(--color-phosphor);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── 雷达扫描动画 ────────────────────────────── */
+@keyframes radar-sweep {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.radar-sweep {
+  transform-origin: 200px 200px;
+  animation: radar-sweep 9s linear infinite;
+}
+
+@keyframes blip-pulse {
+  0% {
+    opacity: 0.9;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.blip-pulse {
+  animation: blip-pulse 2.4s ease-out infinite;
+}
+
+@keyframes beacon-breathe {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.beacon {
+  animation: beacon-breathe 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .radar-sweep,
+  .blip-pulse,
+  .beacon {
+    animation: none;
+  }
+}
+
+/* 热度条分段 */
+.heat-cell {
+  width: 4px;
+  height: 12px;
+  background: var(--color-edge);
+}
+.heat-cell.on {
+  background: var(--color-phosphor);
+}
+.heat-cell.on.hot {
+  background: var(--color-hot);
+}
