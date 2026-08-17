@@ -1,12 +1,12 @@
 # 灵感雷达 · Idea Radar
 
-一个无人值守的灵感信号站：自动扫描 10 个优质灵感频道，打分排序，在雷达仪表盘上清晰展示今天有什么新想法、新趋势。
+一个无人值守的灵感信号站：自动扫描 11 个优质灵感频道，打分排序，在雷达仪表盘上清晰展示今天有什么新想法、新趋势。
 
 ## 工作原理
 
 ```
 GitHub Actions（每 2 小时）
-  → pnpm collect 抓取 10 个频道
+  → pnpm collect 抓取 11 个频道
   → 打分 · 打标签 · 去重 → data/*.json
   → radar-bot 自动 commit & push
   → Vercel 检测到 push → 自动重新部署
@@ -25,6 +25,7 @@ GitHub Actions（每 2 小时）
 | TLDR | TLDR AI 日报 | RSS |
 | SW | Simon Willison 博客 | Atom |
 | RYF | 阮一峰科技爱好者周刊 | GitHub API |
+| 1K | 千人独立开发项目库 | README 表格解析 |
 | HF | HuggingFace 趋势模型 | API |
 | SSPAI | 少数派 | RSS |
 | RDT | Reddit r/SideProject | RSS（尽力） |

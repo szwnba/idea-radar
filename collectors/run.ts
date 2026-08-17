@@ -15,6 +15,7 @@ import * as producthunt from './sources/producthunt';
 import * as tldr from './sources/tldr';
 import * as simonwillison from './sources/simonwillison';
 import * as ruanyf from './sources/ruanyf';
+import * as indie1000 from './sources/indie1000';
 import * as huggingface from './sources/huggingface';
 import * as sspai from './sources/sspai';
 import * as reddit from './sources/reddit';
@@ -29,6 +30,7 @@ const collectors: Collector[] = [
   { id: 'tldr', collect: tldr.collect },
   { id: 'simonwillison', collect: simonwillison.collect },
   { id: 'ruanyf', collect: ruanyf.collect },
+  { id: 'indie1000', collect: indie1000.collect },
   { id: 'huggingface', collect: huggingface.collect },
   { id: 'sspai', collect: sspai.collect },
   { id: 'reddit', collect: reddit.collect },
@@ -76,7 +78,8 @@ async function main() {
       for (const s of fresh) {
         const old = byId.get(s.id);
         if (old) replaced++;
-        byId.set(s.id, s); // 新数据覆盖旧快照（stats 更新）
+        // 保留首见时间：无原始发布时间的源（trending/千人库）不会每轮被“保鲜”
+        byId.set(s.id, old ? { ...s, publishedAt: old.publishedAt } : s);
       }
       statuses.push({ channel: id, ok: true, count: fresh.length });
       console.log(`  ● ${id.padEnd(14)} ${String(fresh.length).padStart(3)} 条${replaced ? `（${replaced} 更新）` : '（新增）'}`);

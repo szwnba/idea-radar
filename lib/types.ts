@@ -5,6 +5,7 @@ export type ChannelId =
   | 'tldr'
   | 'simonwillison'
   | 'ruanyf'
+  | 'indie1000'
   | 'huggingface'
   | 'sspai'
   | 'reddit'
