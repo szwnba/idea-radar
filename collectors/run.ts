@@ -1,6 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { CHANNELS } from '../lib/channels';
+import { CHANNEL_MAP } from '../lib/channels';
 import { applyTags } from '../lib/tags';
 import { computeHeat } from '../lib/score';
 import type { ChannelId, ChannelStatus, DayStat, Signal, SyncMeta } from '../lib/types';
@@ -62,15 +62,17 @@ async function main() {
   const byId = new Map(existing.map((s) => [s.id, s]));
   const before = byId.size;
 
-  console.log(`▶ 开始扫描 ${collectors.length} 个频道…\n`);
+  const active = collectors.filter(({ id }) => CHANNEL_MAP[id].enabled !== false);
+  const disabled = collectors.length - active.length;
+  console.log(`▶ 开始扫描 ${active.length}/${collectors.length} 个频道${disabled ? `（${disabled} 个已禁用）` : ''}…\n`);
 
   const statuses: ChannelStatus[] = [];
   const results = await Promise.allSettled(
-    collectors.map(({ id, collect }) => withTimeout(collect(), SOURCE_TIMEOUT_MS, id)),
+    active.map(({ id, collect }) => withTimeout(collect(), SOURCE_TIMEOUT_MS, id)),
   );
 
-  for (let i = 0; i < collectors.length; i++) {
-    const { id } = collectors[i];
+  for (let i = 0; i < active.length; i++) {
+    const { id } = active[i];
     const result = results[i];
     if (result.status === 'fulfilled') {
       const fresh = result.value;
@@ -120,7 +122,7 @@ async function main() {
 
   const okCount = statuses.filter((s) => s.ok).length;
   const newCount = items.length - Math.min(before, MAX_ITEMS);
-  console.log(`\n✔ 扫描完成：${okCount}/${collectors.length} 频道在线 · 库存 ${items.length} 条（净增 ${Math.max(0, newCount)}）· 耗时 ${((Date.now() - startedAt) / 1000).toFixed(1)}s`);
+  console.log(`\n✔ 扫描完成：${okCount}/${active.length} 频道在线 · 库存 ${items.length} 条（净增 ${Math.max(0, newCount)}）· 耗时 ${((Date.now() - startedAt) / 1000).toFixed(1)}s`);
 }
 
 main().catch((err) => {

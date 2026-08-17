@@ -114,9 +114,11 @@ export function RadarHero({ fresh }: { fresh: Signal[] }) {
           <line x1={CX} y1={CY - R_OUTER} x2={CX} y2={CY + R_OUTER} stroke="#1f2c47" strokeWidth="1" strokeDasharray="2 6" />
           <line x1={CX - R_OUTER} y1={CY} x2={CX + R_OUTER} y2={CY} stroke="#1f2c47" strokeWidth="1" strokeDasharray="2 6" />
 
-          {/* 外环 + 频道刻度与代号 */}
+          {/* 外环 + 频道刻度与代号（已禁用频道不占刻度） */}
           <circle cx={CX} cy={CY} r={R_OUTER} fill="none" stroke="#2a3a5f" strokeWidth="1.5" />
-          {Object.values(CHANNEL_MAP).map((ch) => {
+          {Object.values(CHANNEL_MAP)
+            .filter((ch) => ch.enabled !== false)
+            .map((ch) => {
             const p1 = polar(ch.angle, R_OUTER - 4);
             const p2 = polar(ch.angle, R_OUTER + 4);
             const lp = polar(ch.angle, R_OUTER + 16);

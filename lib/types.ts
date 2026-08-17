@@ -21,6 +21,8 @@ export interface Channel {
   site: string;
   /** 雷达图上的方位角（度，0 = 正北，顺时针） */
   angle: number;
+  /** false 时禁用：巡扫跳过，界面显示「已禁用」 */
+  enabled?: boolean;
 }
 
 /** 一条被捕获的灵感信号 */

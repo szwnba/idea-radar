@@ -19,7 +19,7 @@ GitHub Actions（每 2 小时）
 
 | 频道 | 来源 | 方式 |
 |------|------|------|
-| HN | Hacker News（Show HN / 高分帖） | Firebase API |
+| HN | Hacker News（Show HN / 高分帖） | Firebase API（已禁用）|
 | GH | GitHub Trending 周榜 + 本周新星 | HTML + Search API |
 | PH | Product Hunt | Atom feed |
 | TLDR | TLDR AI 日报 | RSS |

@@ -25,18 +25,19 @@ export function ChannelRail({
         <ul className="space-y-1.5">
           {CHANNELS.map((ch) => {
             const st = statusMap.get(ch.id);
-            const ok = st?.ok ?? false;
+            const disabled = ch.enabled === false;
+            const ok = !disabled && (st?.ok ?? false);
             const count = recent.filter((i) => i.channel === ch.id).length;
             return (
-              <li key={ch.id} className="flex items-center gap-2.5 text-[12.5px]">
+              <li key={ch.id} className={`flex items-center gap-2.5 text-[12.5px] ${disabled ? 'opacity-40' : ''}`}>
                 <span
-                  className={`h-1.5 w-1.5 shrink-0 rounded-full ${ok ? 'bg-phosphor' : 'bg-hot/70'}`}
-                  title={ok ? '信号正常' : st?.error ?? '信号中断'}
+                  className={`h-1.5 w-1.5 shrink-0 rounded-full ${ok ? 'bg-phosphor' : disabled ? 'bg-edge' : 'bg-hot/70'}`}
+                  title={disabled ? '已禁用' : ok ? '信号正常' : st?.error ?? '信号中断'}
                 />
                 <span className="w-11 shrink-0 font-mono text-[10.5px] text-phosphor/70">{ch.code}</span>
                 <span className={ok ? 'text-paper/85' : 'text-dim'}>{ch.name}</span>
                 <span className="ml-auto font-mono text-[10.5px] text-dim">
-                  {ok ? `${count} 条` : '中断'}
+                  {disabled ? '已禁用' : ok ? `${count} 条` : '中断'}
                 </span>
               </li>
             );

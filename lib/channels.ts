@@ -2,7 +2,7 @@ import type { Channel, ChannelId } from './types';
 
 /** 11 个频道，按雷达方位角均匀分布（每 360/11 ≈ 32.7°） */
 export const CHANNELS: Channel[] = [
-  { id: 'hn',            name: '黑客新闻',        code: 'HN',    site: 'https://news.ycombinator.com',       angle: 0 },
+  { id: 'hn',            name: '黑客新闻',        code: 'HN',    site: 'https://news.ycombinator.com',       angle: 0,   enabled: false },
   { id: 'github',        name: 'GitHub 趋势',     code: 'GH',    site: 'https://github.com/trending',        angle: 33 },
   { id: 'producthunt',   name: 'Product Hunt',    code: 'PH',    site: 'https://www.producthunt.com',        angle: 65 },
   { id: 'tldr',          name: 'TLDR AI',         code: 'TLDR',  site: 'https://tldr.tech/ai',               angle: 98 },
