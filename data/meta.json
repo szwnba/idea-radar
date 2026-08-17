@@ -1,16 +1,17 @@
 {
-  "lastSync": "2026-08-16T23:50:16.204Z",
-  "durationMs": 1947,
+  "lastSync": "2026-08-17T01:50:01.081Z",
+  "durationMs": 16647,
   "sources": [
     {
       "channel": "hn",
       "ok": true,
-      "count": 36
+      "count": 26
     },
     {
       "channel": "github",
-      "ok": true,
-      "count": 36
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 504"
     },
     {
       "channel": "producthunt",
