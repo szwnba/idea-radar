@@ -1,8 +1,20 @@
-import { fetchText, signalId } from '../util/http';
+import { signalId } from '../util/http';
 import type { Signal } from '../../lib/types';
 
-const README_URL =
-  'https://raw.githubusercontent.com/XiaomingX/1000-chinese-independent-developer-plus/main/README.md';
+/** 走 contents API 而非 raw CDN：raw 域名对部分 IP 限流（429） */
+const README_API =
+  'https://api.github.com/repos/XiaomingX/1000-chinese-independent-developer-plus/contents/README.md';
+
+async function fetchReadme(): Promise<string> {
+  const res = await fetch(README_API, {
+    headers: {
+      accept: 'application/vnd.github.raw+json',
+      'user-agent': 'IdeaRadar/1.0',
+    },
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.text();
+}
 
 /** 表格行 → 单元格数组 */
 function cells(line: string): string[] {
@@ -22,7 +34,7 @@ function stripMd(text: string): string {
  * 维护者新增项目后，下一轮巡扫即成为新信号。
  */
 export async function collect(): Promise<Signal[]> {
-  const md = await fetchText(README_URL, 20_000);
+  const md = await fetchReadme();
   const now = new Date().toISOString();
   const signals: Signal[] = [];
 
