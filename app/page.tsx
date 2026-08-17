@@ -2,17 +2,18 @@ import { ChannelRail } from '@/components/channel-rail';
 import { RadarHero } from '@/components/radar-hero';
 import { SignalsExplorer } from '@/components/signals-explorer';
 import { StationBar } from '@/components/station-bar';
+import { UndoToast } from '@/components/undo-toast';
 import { loadRadarData } from '@/lib/data';
 
 export default async function Home() {
-  const { fresh, recent, top, meta, stats } = await loadRadarData();
+  const { fresh, recent, meta, stats } = await loadRadarData();
 
   return (
     <>
       <StationBar lastSync={meta?.lastSync ?? null} />
 
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 sm:px-6">
-        <RadarHero fresh={fresh} top={top} />
+        <RadarHero fresh={fresh} />
         <SignalsExplorer items={recent} />
         <ChannelRail meta={meta} stats={stats} recent={recent} />
       </main>
@@ -23,6 +24,8 @@ export default async function Home() {
           <span>GitHub Actions 每 2h 巡扫 → 数据入库 → Vercel 自动重建</span>
         </div>
       </footer>
+
+      <UndoToast />
     </>
   );
 }

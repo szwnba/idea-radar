@@ -2,7 +2,9 @@
 
 import { useMemo, useState } from 'react';
 import { CHANNEL_MAP } from '@/lib/channels';
+import { useRadarStore } from '@/lib/store';
 import type { Signal } from '@/lib/types';
+import { HideButton, StarButton } from './action-buttons';
 
 const CX = 200;
 const CY = 200;
@@ -49,19 +51,28 @@ interface Blip extends Signal {
   isTop: boolean;
 }
 
-export function RadarHero({ fresh, top }: { fresh: Signal[]; top: Signal[] }) {
+export function RadarHero({ fresh }: { fresh: Signal[] }) {
   const [hoverId, setHoverId] = useState<string | null>(null);
+  const { hidden } = useRadarStore();
+  const hiddenIds = useMemo(() => new Set(hidden.map((h) => h.id)), [hidden]);
+
+  // 隐藏过滤后重算今日最强（顺位递补）
+  const visibleFresh = useMemo(() => fresh.filter((s) => !hiddenIds.has(s.id)), [fresh, hiddenIds]);
+  const top = useMemo(
+    () => [...visibleFresh].sort((a, b) => b.heat - a.heat).slice(0, 3),
+    [visibleFresh],
+  );
   const topIds = useMemo(() => new Set(top.map((t) => t.id)), [top]);
 
   const blips: Blip[] = useMemo(() => {
     const now = Date.now();
-    return fresh
+    return visibleFresh
       .map((item) => {
         const { x, y } = blipGeom(item, now);
         return { ...item, x, y, size: 2.5 + item.heat / 28, isTop: topIds.has(item.id) };
       })
       .sort((a, b) => a.heat - b.heat); // 低热度先画，高热度在上层
-  }, [fresh, topIds]);
+  }, [visibleFresh, topIds]);
 
   const hovered = blips.find((b) => b.id === hoverId);
   const rings = [
@@ -189,39 +200,49 @@ export function RadarHero({ fresh, top }: { fresh: Signal[]; top: Signal[] }) {
           const ch = CHANNEL_MAP[item.channel];
           const active = hoverId === item.id;
           return (
-            <a
+            <div
               key={item.id}
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
               onMouseEnter={() => setHoverId(item.id)}
               onMouseLeave={() => setHoverId((cur) => (cur === item.id ? null : cur))}
-              className={`group flex items-start gap-4 rounded-lg border px-4 py-3.5 transition-colors ${
+              className={`group/card flex items-stretch rounded-lg border transition-colors ${
                 active ? 'border-phosphor/50 bg-raised' : 'border-edge bg-panel hover:border-phosphor/30'
               }`}
             >
-              <span
-                className={`mt-0.5 font-mono text-xl leading-none ${i === 0 ? 'text-hot' : 'text-phosphor'}`}
-                aria-hidden
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex min-w-0 flex-1 items-start gap-4 px-4 py-3.5"
               >
-                {String(i + 1).padStart(2, '0')}
-              </span>
-              <span className="min-w-0 flex-1">
-                <span className="flex items-center justify-between gap-3">
-                  <span className="truncate text-[15px] font-medium text-paper group-hover:text-phosphor">
-                    {item.title}
+                <span
+                  className={`mt-0.5 font-mono text-xl leading-none ${i === 0 ? 'text-hot' : 'text-phosphor'}`}
+                  aria-hidden
+                >
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-3">
+                    <span className="truncate text-[15px] font-medium text-paper group-hover/card:text-phosphor">
+                      {item.title}
+                    </span>
                   </span>
-                  <HeatBars heat={item.heat} hot={i === 0} />
+                  <span className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[11px] text-dim">
+                    <span className="text-phosphor/80">{ch.code}</span>
+                    <span>{ch.name}</span>
+                    {item.points > 0 && <span>▲ {item.points.toLocaleString()}</span>}
+                    {item.comments > 0 && <span>✉ {item.comments}</span>}
+                    <span>{item.tags.map((t) => `#${t}`).join(' ')}</span>
+                  </span>
                 </span>
-                <span className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[11px] text-dim">
-                  <span className="text-phosphor/80">{ch.code}</span>
-                  <span>{ch.name}</span>
-                  {item.points > 0 && <span>▲ {item.points.toLocaleString()}</span>}
-                  {item.comments > 0 && <span>✉ {item.comments}</span>}
-                  <span>{item.tags.map((t) => `#${t}`).join(' ')}</span>
-                </span>
-              </span>
-            </a>
+              </a>
+              <div className="flex flex-col items-end justify-center gap-1.5 pr-3">
+                <HeatBars heat={item.heat} hot={i === 0} />
+                <div className="flex gap-0.5 opacity-100 transition-opacity lg:opacity-0 lg:group-hover/card:opacity-100 lg:focus-within:opacity-100">
+                  <StarButton signal={item} />
+                  <HideButton signal={item} />
+                </div>
+              </div>
+            </div>
           );
         })}
       </div>

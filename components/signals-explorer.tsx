@@ -2,7 +2,9 @@
 
 import { useMemo, useState } from 'react';
 import { CHANNELS, CHANNEL_MAP } from '@/lib/channels';
+import { useRadarStore } from '@/lib/store';
 import type { ChannelId, Signal } from '@/lib/types';
+import { HideButton, StarButton } from './action-buttons';
 import { RelativeTime } from './relative-time';
 
 type SortMode = 'heat' | 'newest';
@@ -13,48 +15,56 @@ function SignalRow({ item }: { item: Signal }) {
   const on = Math.max(1, Math.round(item.heat / (100 / 6)));
   return (
     <li className="border-b border-edge/60 last:border-b-0">
-      <a
-        href={item.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group flex items-start gap-3 px-3 py-3 transition-colors hover:bg-raised/60 sm:gap-4 sm:px-4"
-      >
-        {/* 热度 */}
-        <span className="mt-1 flex w-[52px] shrink-0 items-center gap-1.5">
-          <span className="font-mono text-sm tabular-nums text-phosphor">{item.heat}</span>
-          <span className="flex items-end gap-[2px]">
-            {Array.from({ length: 6 }, (_, i) => (
-              <span
-                key={i}
-                className={`heat-cell !h-[10px] !w-[3px] ${i < on ? (item.heat >= 85 ? 'on hot' : 'on') : ''}`}
-              />
-            ))}
-          </span>
-        </span>
-
-        <span className="min-w-0 flex-1">
-          <span className="flex items-baseline gap-2">
-            <span className="shrink-0 font-mono text-[10px] tracking-wider text-phosphor/70">{ch.code}</span>
-            <span className="truncate text-[14px] font-medium text-paper group-hover:text-phosphor">
-              {item.title}
+      <div className="group/row flex items-stretch">
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex min-w-0 flex-1 items-start gap-3 px-3 py-3 transition-colors hover:bg-raised/60 sm:gap-4 sm:px-4"
+        >
+          {/* 热度 */}
+          <span className="mt-1 flex w-[52px] shrink-0 items-center gap-1.5">
+            <span className="font-mono text-sm tabular-nums text-phosphor">{item.heat}</span>
+            <span className="flex items-end gap-[2px]">
+              {Array.from({ length: 6 }, (_, i) => (
+                <span
+                  key={i}
+                  className={`heat-cell !h-[10px] !w-[3px] ${i < on ? (item.heat >= 85 ? 'on hot' : 'on') : ''}`}
+                />
+              ))}
             </span>
           </span>
-          {item.summary && (
-            <span className="mt-1 line-clamp-1 block text-[12.5px] leading-relaxed text-dim">{item.summary}</span>
-          )}
-          <span className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-0.5 font-mono text-[10.5px] text-dim">
-            <RelativeTime iso={item.publishedAt} />
-            {item.points > 0 && <span>▲ {item.points.toLocaleString()}</span>}
-            {item.comments > 0 && <span>✉ {item.comments}</span>}
-            {item.author && <span className="truncate max-w-[160px]">@{item.author}</span>}
-            {item.tags.map((t) => (
-              <span key={t} className="text-phosphor/60">
-                #{t}
+
+          <span className="min-w-0 flex-1">
+            <span className="flex items-baseline gap-2">
+              <span className="shrink-0 font-mono text-[10px] tracking-wider text-phosphor/70">{ch.code}</span>
+              <span className="truncate text-[14px] font-medium text-paper group-hover/row:text-phosphor">
+                {item.title}
               </span>
-            ))}
+            </span>
+            {item.summary && (
+              <span className="mt-1 line-clamp-1 block text-[12.5px] leading-relaxed text-dim">{item.summary}</span>
+            )}
+            <span className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-0.5 font-mono text-[10.5px] text-dim">
+              <RelativeTime iso={item.publishedAt} />
+              {item.points > 0 && <span>▲ {item.points.toLocaleString()}</span>}
+              {item.comments > 0 && <span>✉ {item.comments}</span>}
+              {item.author && <span className="max-w-[160px] truncate">@{item.author}</span>}
+              {item.tags.map((t) => (
+                <span key={t} className="text-phosphor/60">
+                  #{t}
+                </span>
+              ))}
+            </span>
           </span>
-        </span>
-      </a>
+        </a>
+
+        {/* 收藏 / 不看 */}
+        <div className="flex flex-col justify-center gap-1 pr-3 opacity-100 transition-opacity sm:opacity-0 sm:group-hover/row:opacity-100 sm:focus-within:opacity-100">
+          <StarButton signal={item} />
+          <HideButton signal={item} />
+        </div>
+      </div>
     </li>
   );
 }
@@ -64,27 +74,31 @@ export function SignalsExplorer({ items }: { items: Signal[] }) {
   const [tag, setTag] = useState<string | null>(null);
   const [sort, setSort] = useState<SortMode>('heat');
   const [limit, setLimit] = useState(PAGE);
+  const { hidden } = useRadarStore();
+  const hiddenIds = useMemo(() => new Set(hidden.map((h) => h.id)), [hidden]);
+
+  const visible = useMemo(() => items.filter((i) => !hiddenIds.has(i.id)), [items, hiddenIds]);
 
   const counts = useMemo(() => {
     const m = new Map<ChannelId, number>();
-    for (const it of items) m.set(it.channel, (m.get(it.channel) ?? 0) + 1);
+    for (const it of visible) m.set(it.channel, (m.get(it.channel) ?? 0) + 1);
     return m;
-  }, [items]);
+  }, [visible]);
 
   const availableTags = useMemo(() => {
     const m = new Map<string, number>();
-    for (const it of items) for (const t of it.tags) m.set(t, (m.get(t) ?? 0) + 1);
+    for (const it of visible) for (const t of it.tags) m.set(t, (m.get(t) ?? 0) + 1);
     return [...m.entries()].sort((a, b) => b[1] - a[1]).slice(0, 7);
-  }, [items]);
+  }, [visible]);
 
   const filtered = useMemo(() => {
-    let list = items;
+    let list = visible;
     if (channel !== 'all') list = list.filter((i) => i.channel === channel);
     if (tag) list = list.filter((i) => i.tags.includes(tag));
     return [...list].sort((a, b) =>
       sort === 'heat' ? b.heat - a.heat : b.publishedAt.localeCompare(a.publishedAt),
     );
-  }, [items, channel, tag, sort]);
+  }, [visible, channel, tag, sort]);
 
   const shown = filtered.slice(0, limit);
 
@@ -110,7 +124,7 @@ export function SignalsExplorer({ items }: { items: Signal[] }) {
       <div className="mb-5 space-y-2">
         <div className="flex flex-wrap gap-1.5">
           <FilterChip active={channel === 'all'} onClick={() => { setChannel('all'); setLimit(PAGE); }}>
-            全部 <span className="opacity-60">{items.length}</span>
+            全部 <span className="opacity-60">{visible.length}</span>
           </FilterChip>
           {CHANNELS.filter((c) => (counts.get(c.id) ?? 0) > 0).map((c) => (
             <FilterChip
