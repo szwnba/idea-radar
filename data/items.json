@@ -1,5 +1,219 @@
 [
   {
+    "id": "5db724b6a8fcf074",
+    "channel": "reddit",
+    "title": "I made a tool to turn chatbot conversations into tests you can rerun",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wne5p7/i_made_a_tool_to_turn_chatbot_conversations_into/",
+    "summary": "I built Jev State to make it easier to see where a conversational agent goes wrong. You draw the states it can move between, try a conversation, and save that conversation as a tes…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T16:24:05.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 37,
+    "tags": [
+      "AI",
+      "工具"
+    ]
+  },
+  {
+    "id": "4965d8d4391278cc",
+    "channel": "v2ex",
+    "title": "这几天被 JEV 刷屏，跟风做了个 Playground + 资源集合站",
+    "url": "https://www.v2ex.com/t/1244085",
+    "summary": "可能还有同学不知道 JEV 模型是什么，先放一个不太正经的解释：\r\n\r\n[一图看懂 JEV 😂]( https://x.com/5Lavande/status/2102034212220289370)\r\n\r\n## JEV 是什么？\r\n\r\n简单来说：\r\n\r\n- 普通 LLM 会直接生成一段文本；\r\n- JEV 不直接“",
+    "author": "lavande",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T16:18:55.000Z",
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 33,
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": "66ddf13183402e02",
+    "channel": "v2ex",
+    "title": "开源了一个 Liquid Glass 效果的 AI 语音输入法",
+    "url": "https://www.v2ex.com/t/1244084",
+    "summary": "因为很喜欢 macos 的 liquid glass 效果，但是目前也没有哪个 ai 语音输入的产品好看的，op 索性就自己做了一个\r\n。\r\n\r\ngithub： https://github.com/LuliYanng/LiquidType\r\n欢迎同样喜欢 liquid glass 和 voice typing 的朋友",
+    "author": "LuliYanng",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T16:11:56.000Z",
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 36,
+    "tags": [
+      "AI",
+      "开源"
+    ]
+  },
+  {
+    "id": "d402454022a7429a",
+    "channel": "reddit",
+    "title": "I took over my familys 70 year old restaurant the business is fine but i think its soul is dying",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wndobc/i_took_over_my_familys_70_year_old_restaurant_the/",
+    "summary": "i recently took over the restaurant my grandfather started in 1956 its a landmark in our city the booths are worn down from generations of customers the walls are covered in faded …",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T16:06:12.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 30,
+    "tags": []
+  },
+  {
+    "id": "11a7d1bb5a65a9ae",
+    "channel": "reddit",
+    "title": "Book recommendations by mood, not genre. Two thirds of people quit on the same screen",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wndh4e/book_recommendations_by_mood_not_genre_two_thirds/",
+    "summary": "moodteca.com You pick two or three moods, then five covers you like the look of, and it finds books near where those land. No accounts, nothing to install. How it matches Every boo…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T15:59:11.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 33,
+    "tags": [
+      "教程"
+    ]
+  },
+  {
+    "id": "658439540cb84df4",
+    "channel": "reddit",
+    "title": "I built an open source Markdown/MDX desktop editor with Monaco and Electrobun",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wndeyu/i_built_an_open_source_markdownmdx_desktop_editor/",
+    "summary": "I've been working on Fulvid, an open source Markdown and MDX editor for Linux, Windows and macOS. The editor is built around Monaco, with Electrobun providing the desktop layer. Th…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T15:56:59.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 33,
+    "tags": [
+      "开源"
+    ]
+  },
+  {
+    "id": "7528f5f11fc6fb5e",
+    "channel": "simonwillison",
+    "title": "llm-typesafe 0.1a0",
+    "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+    "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( ge…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T15:54:16.000Z",
+    "collectedAt": "2026-09-22T16:48:00.719Z",
+    "heat": 36,
+    "tags": [
+      "AI",
+      "工具"
+    ]
+  },
+  {
+    "id": "c4a527b5138c2978",
+    "channel": "v2ex",
+    "title": "uu 远程的终端很好用，于是给它在 macOS 下加了个终端管理器",
+    "url": "https://www.v2ex.com/t/1244077",
+    "summary": "经常使用 uu 远程的终端来实现远程 vibe coding ，经过分析发现其底层用的是 tmux 并且自己封装了一个 cli  \r\n\r\n于是搓了一个 uu 远程的终端管理器，能够实现在菜单栏里查看、创建、打开和结束网易 UU 远程的终端会话，并可选地把手机端新建的会话自动镜像到 iTerm2 。\r\n\r\n纯 Swift",
+    "author": "Alliot",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T15:23:23.000Z",
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 33,
+    "tags": [
+      "工具"
+    ]
+  },
+  {
+    "id": "3c7a7382254274b2",
+    "channel": "reddit",
+    "title": "I'm a product designer building a zombie driving game. This is the loop I'm trying to make work",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wnc8yy/im_a_product_designer_building_a_zombie_driving/",
+    "summary": "Drive into trouble, let the roof turret work, earn an upgrade, and decide how much more damage the truck can take. That's the small loop I'm exploring in Long Haul, a Unity prototy…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T15:13:56.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 36,
+    "tags": [
+      "教程",
+      "趣味"
+    ]
+  },
+  {
+    "id": "812391ef6b3ff5e1",
+    "channel": "sspai",
+    "title": "可定制、更出彩，头戴式耳机新选择：Beats 360 首发体验",
+    "url": "https://sspai.com/post/114878",
+    "summary": "在BeatsStudioPro发布3年之后，Beats终于想起来要更新一下自家头戴式耳机的旗舰款了，推出了全新的Beats360。值得一提的是，Beats不久前刚刚度过了成立后的20周年生日，Beat ...查看全文",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T14:00:00.000Z",
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 28,
+    "tags": []
+  },
+  {
+    "id": "b2075da39788790f",
+    "channel": "reddit",
+    "title": "[Mole] - Mac cleaner I shipped as a CLI, then as a GUI after users asked",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wna00k/mole_mac_cleaner_i_shipped_as_a_cli_then_as_a_gui/",
+    "summary": "I'm Tw93. About a year ago I wrote a small Mac cleaner for the terminal and put it on GitHub mostly for myself. Mole CLI grew past 60K stars, and the emails kept saying the same th…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T13:47:51.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 35,
+    "tags": [
+      "AI",
+      "工具"
+    ]
+  },
+  {
+    "id": "6cd1d8579e52fba3",
+    "channel": "reddit",
+    "title": "Built a site where you guess PSA grades before theyre revealed turned into a whole card research tool",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wn9e8f/built_a_site_where_you_guess_psa_grades_before/",
+    "summary": "I collect trade TCGs on the side and got tired of two things never knowing if a raw card was actually worth submitting for grading and not having one place to just look up real sol…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T13:22:58.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 31,
+    "tags": [
+      "工具"
+    ]
+  },
+  {
+    "id": "679756661ab8b953",
+    "channel": "reddit",
+    "title": "I forked an open-source project Spliit — it escalated past the plan: anonymous accounts, bank-CSV import, passkeys, webhooks... and much more",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wn8ub2/i_forked_an_opensource_project_spliit_it/",
+    "summary": "I was a huge Splitwise fan and got all my friends and family onto it. When the ads and limits started, I moved everyone to Spliit — free, open source, no accounts needed. That last…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T13:00:11.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 31,
+    "tags": [
+      "开源"
+    ]
+  },
+  {
+    "id": "475b5fa374211afd",
+    "channel": "reddit",
+    "title": "Periodicium - an Interactive Periodic Table",
+    "url": "https://www.reddit.com/r/SideProject/comments/1wn7rtz/periodicium_an_interactive_periodic_table/",
+    "summary": "Hello everyone! Periodicium (https://periodicium.com) is an interactive periodic table project I started building this Summer. I tried to make it more feature-rich, have more data,…",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T12:12:00.000Z",
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 31,
+    "tags": [
+      "教程"
+    ]
+  },
+  {
     "id": "e2fd3d80ed7c3bcf",
     "channel": "github",
     "title": "TencentCloud/Octop",
@@ -8,8 +222,8 @@
     "points": 2177,
     "comments": 0,
     "publishedAt": "2026-09-22T11:25:38.777Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 89,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 86,
     "tags": [
       "AI",
       "开源"
@@ -24,8 +238,8 @@
     "points": 889,
     "comments": 0,
     "publishedAt": "2026-09-22T11:25:38.777Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 76,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 73,
     "tags": [],
     "author": "Python"
   },
@@ -38,8 +252,8 @@
     "points": 667,
     "comments": 0,
     "publishedAt": "2026-09-22T11:25:38.777Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 81,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 78,
     "tags": [
       "AI",
       "教程"
@@ -55,8 +269,8 @@
     "points": 3261,
     "comments": 0,
     "publishedAt": "2026-09-22T11:25:38.777Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 92,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 89,
     "tags": [
       "AI",
       "开源"
@@ -72,13 +286,29 @@
     "points": 4535,
     "comments": 0,
     "publishedAt": "2026-09-22T11:25:38.777Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 94,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 91,
     "tags": [
       "AI",
       "工具"
     ],
     "author": "TypeScript"
+  },
+  {
+    "id": "0f0893e76b15abe7",
+    "channel": "v2ex",
+    "title": "「剧小匠」我们的 AIGC 剧本软件刚上线，赠送 10 个套餐兑换码自取，欢迎各位来把玩",
+    "url": "https://www.v2ex.com/t/1244048",
+    "summary": "「剧小匠」主要面向于 AIGC OPC 与超级个体，为其提供专业的结构化剧本创作服务与基于 AI 的剧本起草和创作能力，让剧本不再是干巴巴的文字，而是具有结构化的、可以持续演进与迭代的内容资产。\r\n\r\n同时也支持将写好的剧本创建为影视项目进行一键分镜拆分、资产生成与分镜视频生成。\r\n\r\n截图：\r\n\r\n![workspa",
+    "author": "yaidev",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T11:25:05.000Z",
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 30,
+    "tags": [
+      "AI"
+    ]
   },
   {
     "id": "2a70705eb509cd30",
@@ -89,8 +319,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T11:07:22.000Z",
-    "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 40,
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 37,
     "tags": [
       "AI",
       "工具",
@@ -104,11 +334,11 @@
     "url": "https://www.v2ex.com/t/1244041",
     "summary": "上周 codex token 剩的比较多，想着写个端侧页面吧，从买域名到上线只花了半天。\r\n\r\n过程还蛮好玩的，做到了极简、颜值在线、交互友好：[Countdown.im]( https://countdown.im/)\r\n\r\n除了支持常见按分钟按小时倒计时，如：\r\n\r\n- [15 分钟倒计时]( https://co",
     "author": "finekewei",
-    "points": 2,
-    "comments": 2,
+    "points": 4,
+    "comments": 4,
     "publishedAt": "2026-09-22T10:49:22.000Z",
-    "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 61,
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 70,
     "tags": [
       "趣味"
     ]
@@ -123,8 +353,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T10:44:15.000Z",
-    "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 30,
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 27,
     "tags": []
   },
   {
@@ -137,7 +367,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T10:17:00.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 36,
+    "heat": 33,
     "tags": [
       "工具",
       "教程"
@@ -152,8 +382,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T09:23:45.000Z",
-    "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 36,
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 33,
     "tags": [
       "AI",
       "工具"
@@ -169,7 +399,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T09:21:35.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 36,
+    "heat": 33,
     "tags": [
       "变现",
       "教程"
@@ -182,11 +412,11 @@
     "url": "https://www.v2ex.com/t/1243998",
     "summary": "公司给的 copilot 额度用完了，来摸鱼发个帖子，宣传下我的 Vivid Player.\r\n\r\n今天早上第一个坏消息，我的 claude 账号历时小一年后，今早被 organization disabled 了。我打算继续用回 codex.  \r\n\r\n好消息就是我的 Vivid Player 在 Xbox one",
     "author": "hahahabro",
-    "points": 13,
-    "comments": 13,
+    "points": 14,
+    "comments": 14,
     "publishedAt": "2026-09-22T08:11:57.000Z",
-    "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 92,
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 89,
     "tags": [
       "AI"
     ]
@@ -200,8 +430,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T08:11:03.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 28,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 25,
     "tags": []
   },
   {
@@ -214,7 +444,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T07:59:57.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 35,
+    "heat": 32,
     "tags": [
       "AI",
       "工具"
@@ -230,8 +460,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T07:54:52.000Z",
-    "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 31,
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 29,
     "tags": [
       "AI"
     ]
@@ -246,8 +476,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T07:37:36.000Z",
-    "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 35,
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 32,
     "tags": [
       "AI",
       "工具"
@@ -263,7 +493,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T07:18:37.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 31,
+    "heat": 28,
     "tags": [
       "AI"
     ]
@@ -278,8 +508,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T07:17:57.000Z",
-    "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 31,
+    "collectedAt": "2026-09-22T16:48:00.905Z",
+    "heat": 28,
     "tags": [
       "工具"
     ]
@@ -295,7 +525,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T07:07:55.000Z",
     "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 34,
+    "heat": 32,
     "tags": [
       "AI",
       "变现"
@@ -312,7 +542,7 @@
     "comments": 26,
     "publishedAt": "2026-09-22T06:43:58.000Z",
     "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 91,
+    "heat": 88,
     "tags": [
       "工具"
     ]
@@ -326,8 +556,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T06:39:39.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 31,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 28,
     "tags": [
       "工具"
     ]
@@ -343,7 +573,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T06:32:44.000Z",
     "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 31,
+    "heat": 28,
     "tags": [
       "工具"
     ]
@@ -359,7 +589,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T06:30:40.000Z",
     "collectedAt": "2026-09-22T11:25:39.303Z",
-    "heat": 31,
+    "heat": 28,
     "tags": [
       "AI"
     ]
@@ -373,8 +603,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T05:02:45.000Z",
-    "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 33,
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 31,
     "tags": [
       "工具",
       "变现"
@@ -390,7 +620,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T05:00:23.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 27,
+    "heat": 24,
     "tags": []
   },
   {
@@ -403,7 +633,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T04:25:11.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 33,
+    "heat": 30,
     "tags": [
       "AI",
       "工具"
@@ -419,7 +649,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T03:57:02.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 29,
+    "heat": 27,
     "tags": [
       "AI"
     ]
@@ -435,7 +665,7 @@
     "comments": 2,
     "publishedAt": "2026-09-22T03:54:59.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 57,
+    "heat": 54,
     "tags": [
       "AI"
     ]
@@ -450,7 +680,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T03:48:54.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 29,
+    "heat": 27,
     "tags": [
       "教程"
     ]
@@ -464,8 +694,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T03:41:09.000Z",
-    "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 26,
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 23,
     "tags": []
   },
   {
@@ -479,7 +709,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T03:18:13.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 32,
+    "heat": 30,
     "tags": [
       "AI",
       "开源"
@@ -496,7 +726,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T03:17:36.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 26,
+    "heat": 23,
     "tags": []
   },
   {
@@ -509,7 +739,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T03:17:20.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 29,
+    "heat": 27,
     "tags": [
       "工具"
     ]
@@ -525,7 +755,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T03:07:36.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 26,
+    "heat": 23,
     "tags": []
   },
   {
@@ -539,7 +769,7 @@
     "comments": 1,
     "publishedAt": "2026-09-22T03:05:00.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 43,
+    "heat": 40,
     "tags": []
   },
   {
@@ -553,7 +783,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T03:04:17.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 29,
+    "heat": 26,
     "tags": [
       "AI"
     ]
@@ -569,7 +799,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T02:50:25.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 32,
+    "heat": 30,
     "tags": [
       "AI",
       "开源"
@@ -584,8 +814,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T02:44:06.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 25,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 23,
     "tags": []
   },
   {
@@ -599,7 +829,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T02:27:37.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 35,
+    "heat": 33,
     "tags": [
       "AI",
       "工具",
@@ -617,7 +847,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T02:25:47.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 32,
+    "heat": 30,
     "tags": [
       "AI",
       "开源"
@@ -634,7 +864,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T02:24:16.000Z",
     "collectedAt": "2026-09-22T04:40:04.371Z",
-    "heat": 29,
+    "heat": 26,
     "tags": [
       "趣味"
     ]
@@ -649,7 +879,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T02:13:08.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 25,
+    "heat": 23,
     "tags": []
   },
   {
@@ -662,7 +892,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T01:59:02.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 28,
+    "heat": 26,
     "tags": [
       "趣味"
     ]
@@ -677,7 +907,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T01:54:20.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 35,
+    "heat": 33,
     "tags": [
       "AI",
       "工具",
@@ -694,7 +924,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T01:48:34.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 28,
+    "heat": 26,
     "tags": [
       "趣味"
     ]
@@ -708,8 +938,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T00:59:17.000Z",
-    "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 25,
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 22,
     "tags": []
   },
   {
@@ -722,7 +952,7 @@
     "comments": 0,
     "publishedAt": "2026-09-22T00:40:01.000Z",
     "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 24,
+    "heat": 22,
     "tags": []
   },
   {
@@ -734,8 +964,20 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-22T00:09:01.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 24,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 22,
+    "tags": []
+  },
+  {
+    "id": "a35f3ae9a9dfb278",
+    "channel": "tldr",
+    "title": "Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖",
+    "url": "https://tldr.tech/ai/2026-09-22",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-22T00:00:00.000Z",
+    "collectedAt": "2026-09-22T16:48:00.711Z",
+    "heat": 22,
     "tags": []
   },
   {
@@ -748,7 +990,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T23:34:11.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 31,
+    "heat": 28,
     "tags": [
       "AI",
       "变现"
@@ -763,8 +1005,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T23:09:20.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
-    "heat": 30,
+    "collectedAt": "2026-09-22T16:48:00.719Z",
+    "heat": 28,
     "tags": [
       "AI",
       "工具"
@@ -780,7 +1022,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T23:01:17.000Z",
     "collectedAt": "2026-09-21T23:11:27.330Z",
-    "heat": 30,
+    "heat": 28,
     "tags": [
       "工具",
       "趣味"
@@ -796,7 +1038,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T22:35:11.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 27,
+    "heat": 25,
     "tags": [
       "变现"
     ]
@@ -810,8 +1052,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T22:25:44.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
-    "heat": 27,
+    "collectedAt": "2026-09-22T16:48:00.719Z",
+    "heat": 24,
     "tags": [
       "AI"
     ]
@@ -826,7 +1068,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T22:13:18.000Z",
     "collectedAt": "2026-09-21T23:11:27.330Z",
-    "heat": 27,
+    "heat": 24,
     "tags": [
       "AI"
     ]
@@ -840,8 +1082,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T21:42:18.000Z",
-    "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 26,
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 24,
     "tags": [
       "AI"
     ]
@@ -856,12 +1098,25 @@
     "comments": 0,
     "publishedAt": "2026-09-21T20:53:13.000Z",
     "collectedAt": "2026-09-21T23:11:27.330Z",
-    "heat": 33,
+    "heat": 30,
     "tags": [
       "AI",
       "工具",
       "变现"
     ]
+  },
+  {
+    "id": "ef87c15f33e92cf4",
+    "channel": "producthunt",
+    "title": "Walkie",
+    "url": "https://www.producthunt.com/products/walkie-3",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-21T20:34:24.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 20,
+    "tags": []
   },
   {
     "id": "426646c03aab59a1",
@@ -874,7 +1129,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T19:21:39.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 29,
+    "heat": 27,
     "tags": [
       "AI",
       "工具"
@@ -890,7 +1145,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T19:11:11.000Z",
     "collectedAt": "2026-09-22T04:40:04.686Z",
-    "heat": 22,
+    "heat": 20,
     "tags": []
   },
   {
@@ -903,7 +1158,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T18:58:46.000Z",
     "collectedAt": "2026-09-21T23:11:27.330Z",
-    "heat": 25,
+    "heat": 23,
     "tags": [
       "工具"
     ]
@@ -918,7 +1173,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T18:53:35.000Z",
     "collectedAt": "2026-09-21T19:17:05.106Z",
-    "heat": 25,
+    "heat": 23,
     "tags": [
       "工具"
     ]
@@ -933,7 +1188,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T18:51:35.000Z",
     "collectedAt": "2026-09-21T19:17:05.106Z",
-    "heat": 32,
+    "heat": 30,
     "tags": [
       "AI",
       "工具",
@@ -950,7 +1205,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T18:50:10.000Z",
     "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 22,
+    "heat": 20,
     "tags": []
   },
   {
@@ -963,7 +1218,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T18:48:33.000Z",
     "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 22,
+    "heat": 20,
     "tags": []
   },
   {
@@ -976,10 +1231,23 @@
     "comments": 0,
     "publishedAt": "2026-09-21T18:27:22.000Z",
     "collectedAt": "2026-09-21T23:11:27.330Z",
-    "heat": 25,
+    "heat": 23,
     "tags": [
       "变现"
     ]
+  },
+  {
+    "id": "e927a62ac8bc75cc",
+    "channel": "producthunt",
+    "title": "Blurt",
+    "url": "https://www.producthunt.com/products/assemblyai",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-21T18:24:38.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 19,
+    "tags": []
   },
   {
     "id": "8fb1a3df556b4bd7",
@@ -991,7 +1259,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T17:55:48.000Z",
     "collectedAt": "2026-09-21T23:11:27.330Z",
-    "heat": 28,
+    "heat": 26,
     "tags": [
       "教程",
       "趣味"
@@ -1008,7 +1276,7 @@
     "comments": 2,
     "publishedAt": "2026-09-21T16:56:24.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 49,
+    "heat": 46,
     "tags": []
   },
   {
@@ -1021,12 +1289,25 @@
     "comments": 0,
     "publishedAt": "2026-09-21T16:54:49.000Z",
     "collectedAt": "2026-09-21T19:17:05.106Z",
-    "heat": 31,
+    "heat": 29,
     "tags": [
       "AI",
       "工具",
       "教程"
     ]
+  },
+  {
+    "id": "dbde1d2ee48769dd",
+    "channel": "producthunt",
+    "title": "Googlebook",
+    "url": "https://www.producthunt.com/products/googlebook-4",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-21T16:42:06.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 19,
+    "tags": []
   },
   {
     "id": "864748de7c1e141c",
@@ -1038,7 +1319,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T16:36:01.000Z",
     "collectedAt": "2026-09-21T23:11:27.330Z",
-    "heat": 28,
+    "heat": 26,
     "tags": [
       "AI",
       "工具"
@@ -1054,10 +1335,23 @@
     "comments": 0,
     "publishedAt": "2026-09-21T16:07:03.000Z",
     "collectedAt": "2026-09-21T23:11:27.330Z",
-    "heat": 24,
+    "heat": 22,
     "tags": [
       "AI"
     ]
+  },
+  {
+    "id": "aeef5531cd01e60a",
+    "channel": "huggingface",
+    "title": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "summary": "985 下载 · 358 喜欢 · text-generation",
+    "points": 358,
+    "comments": 0,
+    "publishedAt": "2026-09-21T15:39:33.000Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
+    "heat": 60,
+    "tags": []
   },
   {
     "id": "cb95a9243b3e4302",
@@ -1068,8 +1362,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T15:36:35.000Z",
-    "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 24,
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 22,
     "tags": [
       "AI"
     ]
@@ -1085,7 +1379,7 @@
     "comments": 5,
     "publishedAt": "2026-09-21T14:52:28.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 75,
+    "heat": 73,
     "tags": [
       "AI",
       "工具",
@@ -1101,12 +1395,25 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T14:44:10.000Z",
-    "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 27,
+    "collectedAt": "2026-09-22T16:48:01.039Z",
+    "heat": 25,
     "tags": [
       "AI",
       "工具"
     ]
+  },
+  {
+    "id": "c46c50709b6702e4",
+    "channel": "producthunt",
+    "title": "PewCB",
+    "url": "https://www.producthunt.com/products/pewcb-in-house-pcb-prototyping-machine",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-21T14:35:40.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 18,
+    "tags": []
   },
   {
     "id": "b59d197dad866808",
@@ -1119,10 +1426,23 @@
     "comments": 0,
     "publishedAt": "2026-09-21T14:06:15.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 23,
+    "heat": 21,
     "tags": [
       "工具"
     ]
+  },
+  {
+    "id": "cc3b239dcde56021",
+    "channel": "producthunt",
+    "title": "Valori",
+    "url": "https://www.producthunt.com/products/valori-systems-deleted-1168484",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-21T13:28:59.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 18,
+    "tags": []
   },
   {
     "id": "cdf1ccbc16580978",
@@ -1133,8 +1453,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T13:02:58.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 23,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 21,
     "tags": [
       "AI"
     ]
@@ -1148,8 +1468,8 @@
     "points": 345,
     "comments": 0,
     "publishedAt": "2026-09-21T12:39:18.963Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 59,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 57,
     "tags": [],
     "author": "Rust"
   },
@@ -1162,8 +1482,8 @@
     "points": 15675,
     "comments": 0,
     "publishedAt": "2026-09-21T12:39:18.963Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 83,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 81,
     "tags": [
       "AI"
     ],
@@ -1179,7 +1499,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T12:39:18.963Z",
     "collectedAt": "2026-09-22T04:40:04.018Z",
-    "heat": 75,
+    "heat": 74,
     "tags": [
       "AI",
       "工具"
@@ -1197,7 +1517,7 @@
     "comments": 4,
     "publishedAt": "2026-09-21T12:38:10.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 66,
+    "heat": 65,
     "tags": [
       "AI",
       "开源"
@@ -1213,7 +1533,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T12:19:31.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 26,
+    "heat": 24,
     "tags": [
       "AI",
       "工具"
@@ -1229,7 +1549,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T11:42:25.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 22,
+    "heat": 21,
     "tags": [
       "工具"
     ]
@@ -1245,7 +1565,7 @@
     "comments": 13,
     "publishedAt": "2026-09-21T11:40:20.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 86,
+    "heat": 84,
     "tags": [
       "AI",
       "工具"
@@ -1262,7 +1582,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T11:28:50.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 22,
+    "heat": 20,
     "tags": [
       "开源"
     ]
@@ -1277,7 +1597,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T11:12:58.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 22,
+    "heat": 20,
     "tags": [
       "AI"
     ]
@@ -1291,7 +1611,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T11:12:53Z",
     "collectedAt": "2026-09-21T23:11:26.395Z",
-    "heat": 65,
+    "heat": 63,
     "tags": [],
     "author": "Kotlin"
   },
@@ -1301,10 +1621,10 @@
     "title": "jev-chat/jev-chat-jarvis",
     "url": "https://github.com/jev-chat/jev-chat-jarvis",
     "summary": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
-    "points": 2862,
+    "points": 3529,
     "comments": 0,
     "publishedAt": "2026-09-21T11:12:53Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 73,
     "tags": [],
     "author": "Kotlin"
@@ -1319,7 +1639,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T10:58:47.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 29,
+    "heat": 27,
     "tags": [
       "AI",
       "工具",
@@ -1336,11 +1656,24 @@
     "comments": 0,
     "publishedAt": "2026-09-21T10:58:01.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 26,
+    "heat": 24,
     "tags": [
       "AI",
       "工具"
     ]
+  },
+  {
+    "id": "09c5f2936f2ca5f4",
+    "channel": "producthunt",
+    "title": "ResumeContext",
+    "url": "https://www.producthunt.com/products/resumecontext",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-21T10:42:06.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 17,
+    "tags": []
   },
   {
     "id": "57605a51984a94b2",
@@ -1353,7 +1686,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T10:36:55.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 29,
+    "heat": 27,
     "tags": [
       "AI",
       "工具",
@@ -1370,7 +1703,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T10:08:42.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 25,
+    "heat": 23,
     "tags": [
       "AI",
       "工具"
@@ -1385,8 +1718,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T09:57:01.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 22,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 20,
     "tags": [
       "工具"
     ]
@@ -1402,7 +1735,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T09:50:49.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 25,
+    "heat": 23,
     "tags": [
       "工具",
       "开源"
@@ -1419,7 +1752,7 @@
     "comments": 8,
     "publishedAt": "2026-09-21T09:48:42.000Z",
     "collectedAt": "2026-09-21T23:11:26.598Z",
-    "heat": 80,
+    "heat": 78,
     "tags": [
       "工具",
       "出海"
@@ -1436,7 +1769,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T09:46:14.000Z",
     "collectedAt": "2026-09-21T19:17:04.774Z",
-    "heat": 25,
+    "heat": 23,
     "tags": [
       "工具",
       "开源"
@@ -1452,7 +1785,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T09:39:44.000Z",
     "collectedAt": "2026-09-21T19:17:05.106Z",
-    "heat": 25,
+    "heat": 23,
     "tags": [
       "工具",
       "教程"
@@ -1469,7 +1802,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T09:24:06.000Z",
     "collectedAt": "2026-09-21T12:39:19.423Z",
-    "heat": 22,
+    "heat": 20,
     "tags": [
       "工具"
     ]
@@ -1483,8 +1816,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T09:19:43.000Z",
-    "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 18,
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 16,
     "tags": []
   },
   {
@@ -1496,8 +1829,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T09:02:38.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 18,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 16,
     "tags": []
   },
   {
@@ -1510,7 +1843,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T08:43:36.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 25,
+    "heat": 23,
     "tags": [
       "AI",
       "工具"
@@ -1527,7 +1860,7 @@
     "comments": 2,
     "publishedAt": "2026-09-21T08:41:42.000Z",
     "collectedAt": "2026-09-21T12:39:19.423Z",
-    "heat": 49,
+    "heat": 47,
     "tags": [
       "工具"
     ]
@@ -1543,7 +1876,7 @@
     "comments": 1,
     "publishedAt": "2026-09-21T08:40:16.000Z",
     "collectedAt": "2026-09-21T12:39:19.423Z",
-    "heat": 39,
+    "heat": 37,
     "tags": [
       "开源"
     ]
@@ -1558,7 +1891,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T08:34:32.000Z",
     "collectedAt": "2026-09-22T11:25:39.586Z",
-    "heat": 21,
+    "heat": 20,
     "tags": [
       "工具"
     ]
@@ -1574,7 +1907,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T07:17:10.000Z",
     "collectedAt": "2026-09-21T12:39:19.423Z",
-    "heat": 21,
+    "heat": 19,
     "tags": [
       "工具"
     ]
@@ -1589,7 +1922,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T06:46:10.000Z",
     "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 21,
+    "heat": 19,
     "tags": [
       "工具"
     ]
@@ -1604,7 +1937,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T06:34:28.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 17,
+    "heat": 16,
     "tags": []
   },
   {
@@ -1616,8 +1949,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T05:26:32.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 17,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 15,
     "tags": []
   },
   {
@@ -1631,7 +1964,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T04:33:09.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 27,
+    "heat": 25,
     "tags": [
       "AI",
       "开源",
@@ -1648,7 +1981,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T04:18:50.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 20,
+    "heat": 18,
     "tags": [
       "AI"
     ]
@@ -1663,7 +1996,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T03:53:39.000Z",
     "collectedAt": "2026-09-22T04:40:04.248Z",
-    "heat": 16,
+    "heat": 15,
     "tags": []
   },
   {
@@ -1675,8 +2008,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T03:38:08.000Z",
-    "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 23,
+    "collectedAt": "2026-09-22T16:48:03.810Z",
+    "heat": 21,
     "tags": [
       "AI",
       "工具"
@@ -1693,7 +2026,7 @@
     "comments": 1,
     "publishedAt": "2026-09-21T03:28:37.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 40,
+    "heat": 39,
     "tags": [
       "AI",
       "开源"
@@ -1710,7 +2043,7 @@
     "comments": 7,
     "publishedAt": "2026-09-21T03:17:00.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 75,
+    "heat": 73,
     "tags": [
       "AI",
       "工具"
@@ -1727,7 +2060,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T03:05:39.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 23,
+    "heat": 21,
     "tags": [
       "AI",
       "工具"
@@ -1744,7 +2077,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T02:45:00.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 26,
+    "heat": 24,
     "tags": [
       "AI",
       "工具",
@@ -1761,7 +2094,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T02:44:47.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 16,
+    "heat": 14,
     "tags": []
   },
   {
@@ -1775,7 +2108,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T02:38:09.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 23,
+    "heat": 21,
     "tags": [
       "AI",
       "工具"
@@ -1792,7 +2125,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T02:27:03.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 19,
+    "heat": 18,
     "tags": [
       "AI"
     ]
@@ -1807,7 +2140,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T02:19:43.000Z",
     "collectedAt": "2026-09-21T23:11:26.507Z",
-    "heat": 16,
+    "heat": 14,
     "tags": []
   },
   {
@@ -1821,7 +2154,7 @@
     "comments": 9,
     "publishedAt": "2026-09-21T02:16:42.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 80,
+    "heat": 79,
     "tags": [
       "AI",
       "趣味"
@@ -1838,7 +2171,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T02:12:20.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 19,
+    "heat": 18,
     "tags": [
       "工具"
     ]
@@ -1854,7 +2187,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T02:07:03.000Z",
     "collectedAt": "2026-09-21T04:43:13.632Z",
-    "heat": 23,
+    "heat": 21,
     "tags": [
       "AI",
       "开源"
@@ -1870,7 +2203,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T02:04:19.000Z",
     "collectedAt": "2026-09-22T04:40:04.248Z",
-    "heat": 16,
+    "heat": 14,
     "tags": []
   },
   {
@@ -1883,7 +2216,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T01:23:30.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 22,
+    "heat": 21,
     "tags": [
       "AI",
       "教程"
@@ -1899,7 +2232,7 @@
     "comments": 0,
     "publishedAt": "2026-09-21T00:10:52.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 25,
+    "heat": 24,
     "tags": [
       "AI",
       "工具",
@@ -1914,8 +2247,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-21T00:00:00.000Z",
-    "collectedAt": "2026-09-22T11:25:39.068Z",
-    "heat": 19,
+    "collectedAt": "2026-09-22T16:48:00.711Z",
+    "heat": 17,
     "tags": [
       "AI"
     ]
@@ -1930,7 +2263,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T22:26:04.000Z",
     "collectedAt": "2026-09-22T11:25:40.135Z",
-    "heat": 18,
+    "heat": 17,
     "tags": [
       "AI"
     ]
@@ -1945,7 +2278,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T22:04:04.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 15,
+    "heat": 13,
     "tags": []
   },
   {
@@ -1958,7 +2291,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T21:56:29.000Z",
     "collectedAt": "2026-09-21T19:17:04.583Z",
-    "heat": 15,
+    "heat": 13,
     "tags": []
   },
   {
@@ -1971,7 +2304,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T21:51:57.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 15,
+    "heat": 13,
     "tags": []
   },
   {
@@ -1984,7 +2317,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T21:22:04.000Z",
     "collectedAt": "2026-09-22T04:40:04.248Z",
-    "heat": 14,
+    "heat": 13,
     "tags": []
   },
   {
@@ -1996,8 +2329,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-20T21:06:43.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
-    "heat": 14,
+    "collectedAt": "2026-09-22T16:48:00.719Z",
+    "heat": 13,
     "tags": []
   },
   {
@@ -2011,7 +2344,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T20:40:08.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 14,
+    "heat": 13,
     "tags": []
   },
   {
@@ -2024,7 +2357,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T20:38:41.000Z",
     "collectedAt": "2026-09-20T22:22:01.792Z",
-    "heat": 14,
+    "heat": 13,
     "tags": []
   },
   {
@@ -2036,8 +2369,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-20T20:24:41.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
-    "heat": 18,
+    "collectedAt": "2026-09-22T16:48:00.719Z",
+    "heat": 16,
     "tags": [
       "AI"
     ]
@@ -2052,7 +2385,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T20:14:25.000Z",
     "collectedAt": "2026-09-21T12:39:19.804Z",
-    "heat": 24,
+    "heat": 23,
     "tags": [
       "AI",
       "工具",
@@ -2069,7 +2402,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T20:14:25.000Z",
     "collectedAt": "2026-09-22T04:40:04.248Z",
-    "heat": 18,
+    "heat": 16,
     "tags": [
       "AI"
     ]
@@ -2084,7 +2417,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T20:09:48.000Z",
     "collectedAt": "2026-09-20T22:22:01.792Z",
-    "heat": 14,
+    "heat": 13,
     "tags": []
   },
   {
@@ -2097,7 +2430,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T20:04:50.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 21,
+    "heat": 19,
     "tags": [
       "AI",
       "工具"
@@ -2112,8 +2445,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-20T19:22:19.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
-    "heat": 21,
+    "collectedAt": "2026-09-22T16:48:00.719Z",
+    "heat": 19,
     "tags": [
       "AI",
       "工具"
@@ -2129,7 +2462,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T17:45:30.000Z",
     "collectedAt": "2026-09-20T18:41:24.125Z",
-    "heat": 20,
+    "heat": 19,
     "tags": [
       "工具",
       "教程"
@@ -2145,7 +2478,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T17:10:58.000Z",
     "collectedAt": "2026-09-22T04:40:04.248Z",
-    "heat": 13,
+    "heat": 12,
     "tags": []
   },
   {
@@ -2158,7 +2491,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T16:54:37.000Z",
     "collectedAt": "2026-09-20T18:41:24.125Z",
-    "heat": 13,
+    "heat": 12,
     "tags": []
   },
   {
@@ -2171,7 +2504,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T16:46:51.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 17,
+    "heat": 15,
     "tags": [
       "工具"
     ]
@@ -2186,7 +2519,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T16:07:49.000Z",
     "collectedAt": "2026-09-22T04:40:04.248Z",
-    "heat": 13,
+    "heat": 12,
     "tags": []
   },
   {
@@ -2199,7 +2532,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T16:02:46.000Z",
     "collectedAt": "2026-09-20T18:41:24.125Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI"
     ]
@@ -2214,7 +2547,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T15:54:36.000Z",
     "collectedAt": "2026-09-20T15:56:58.800Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI"
     ]
@@ -2229,7 +2562,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T15:51:13.000Z",
     "collectedAt": "2026-09-21T12:39:19.167Z",
-    "heat": 58,
+    "heat": 57,
     "tags": [
       "AI"
     ]
@@ -2239,11 +2572,11 @@
     "channel": "huggingface",
     "title": "abenzerps/Qwen-Image-2.1-GGUF",
     "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF",
-    "summary": "182,313 下载 · 851 喜欢 · text-to-image",
-    "points": 851,
+    "summary": "182,313 下载 · 979 喜欢 · text-to-image",
+    "points": 979,
     "comments": 0,
     "publishedAt": "2026-09-20T15:51:13.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 64,
     "tags": [
       "AI"
@@ -2259,7 +2592,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T15:47:41.000Z",
     "collectedAt": "2026-09-20T18:41:24.125Z",
-    "heat": 23,
+    "heat": 22,
     "tags": [
       "AI",
       "教程",
@@ -2276,7 +2609,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T15:38:30.000Z",
     "collectedAt": "2026-09-20T15:56:58.800Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI"
     ]
@@ -2292,7 +2625,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T15:35:38.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 13,
+    "heat": 12,
     "tags": []
   },
   {
@@ -2305,7 +2638,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T15:20:41.000Z",
     "collectedAt": "2026-09-21T19:17:05.106Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI"
     ]
@@ -2320,7 +2653,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T15:20:05.000Z",
     "collectedAt": "2026-09-20T15:56:58.800Z",
-    "heat": 20,
+    "heat": 18,
     "tags": [
       "AI",
       "工具"
@@ -2336,7 +2669,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T15:01:30.000Z",
     "collectedAt": "2026-09-20T15:56:58.800Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "工具"
     ]
@@ -2352,7 +2685,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T14:48:29.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 20,
+    "heat": 18,
     "tags": [
       "AI",
       "开源"
@@ -2369,7 +2702,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T13:48:00.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 19,
+    "heat": 18,
     "tags": [
       "AI",
       "开源"
@@ -2386,7 +2719,7 @@
     "comments": 4,
     "publishedAt": "2026-09-20T13:15:55.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 63,
+    "heat": 61,
     "tags": [
       "AI",
       "工具",
@@ -2398,11 +2731,11 @@
     "channel": "huggingface",
     "title": "Altworld/Hemmingway-1",
     "url": "https://huggingface.co/Altworld/Hemmingway-1",
-    "summary": "2,745 下载 · 436 喜欢 · text-generation",
-    "points": 436,
+    "summary": "2,745 下载 · 475 喜欢 · text-generation",
+    "points": 475,
     "comments": 0,
     "publishedAt": "2026-09-20T12:10:31.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 55,
     "tags": []
   },
@@ -2417,7 +2750,7 @@
     "comments": 1,
     "publishedAt": "2026-09-20T12:01:51.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 33,
+    "heat": 32,
     "tags": [
       "工具"
     ]
@@ -2428,11 +2761,11 @@
     "title": "zai-org/ZCode",
     "url": "https://github.com/zai-org/ZCode",
     "summary": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-    "points": 6124,
+    "points": 6227,
     "comments": 0,
     "publishedAt": "2026-09-20T12:01:16Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 75,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 74,
     "tags": [
       "AI"
     ],
@@ -2447,8 +2780,8 @@
     "points": 1204,
     "comments": 0,
     "publishedAt": "2026-09-20T11:10:44.033Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 67,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 66,
     "tags": [
       "AI",
       "工具"
@@ -2464,8 +2797,8 @@
     "points": 412,
     "comments": 0,
     "publishedAt": "2026-09-20T11:10:44.033Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 53,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 52,
     "tags": [],
     "author": "Go"
   },
@@ -2479,7 +2812,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T10:48:21.000Z",
     "collectedAt": "2026-09-20T11:10:44.862Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "工具"
     ]
@@ -2495,7 +2828,7 @@
     "comments": 7,
     "publishedAt": "2026-09-20T10:15:05.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 67,
+    "heat": 66,
     "tags": [
       "工具"
     ]
@@ -2510,7 +2843,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T10:12:30.000Z",
     "collectedAt": "2026-09-20T11:10:44.862Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "工具"
     ]
@@ -2526,7 +2859,7 @@
     "comments": 3,
     "publishedAt": "2026-09-20T09:51:13.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 46,
+    "heat": 45,
     "tags": []
   },
   {
@@ -2540,7 +2873,7 @@
     "comments": 3,
     "publishedAt": "2026-09-20T09:44:04.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 50,
+    "heat": 48,
     "tags": [
       "AI"
     ]
@@ -2555,7 +2888,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T09:44:03.000Z",
     "collectedAt": "2026-09-22T04:40:04.248Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "AI"
     ]
@@ -2571,7 +2904,7 @@
     "comments": 2,
     "publishedAt": "2026-09-20T09:35:04.000Z",
     "collectedAt": "2026-09-20T22:22:01.637Z",
-    "heat": 49,
+    "heat": 48,
     "tags": [
       "AI",
       "工具",
@@ -2588,7 +2921,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T09:33:43.000Z",
     "collectedAt": "2026-09-20T11:10:44.862Z",
-    "heat": 18,
+    "heat": 17,
     "tags": [
       "工具",
       "教程"
@@ -2604,7 +2937,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T09:25:25.000Z",
     "collectedAt": "2026-09-21T23:11:26.507Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "工具"
     ]
@@ -2620,7 +2953,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T09:12:34.000Z",
     "collectedAt": "2026-09-20T18:41:23.489Z",
-    "heat": 11,
+    "heat": 10,
     "tags": []
   },
   {
@@ -2633,7 +2966,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T09:00:11.000Z",
     "collectedAt": "2026-09-20T11:10:44.862Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "工具"
     ]
@@ -2649,7 +2982,7 @@
     "comments": 2,
     "publishedAt": "2026-09-20T09:00:11.000Z",
     "collectedAt": "2026-09-20T11:10:44.377Z",
-    "heat": 42,
+    "heat": 41,
     "tags": [
       "工具"
     ]
@@ -2664,7 +2997,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T08:57:52.000Z",
     "collectedAt": "2026-09-21T19:17:04.583Z",
-    "heat": 11,
+    "heat": 10,
     "tags": []
   },
   {
@@ -2678,7 +3011,7 @@
     "comments": 1,
     "publishedAt": "2026-09-20T08:24:23.000Z",
     "collectedAt": "2026-09-20T11:10:44.377Z",
-    "heat": 35,
+    "heat": 34,
     "tags": [
       "AI",
       "工具"
@@ -2695,7 +3028,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T08:04:59.000Z",
     "collectedAt": "2026-09-20T11:10:44.377Z",
-    "heat": 15,
+    "heat": 13,
     "tags": [
       "AI"
     ]
@@ -2710,7 +3043,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T07:59:57.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 18,
+    "heat": 17,
     "tags": [
       "变现",
       "趣味"
@@ -2726,7 +3059,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T07:41:49.000Z",
     "collectedAt": "2026-09-20T22:22:01.792Z",
-    "heat": 14,
+    "heat": 13,
     "tags": [
       "工具"
     ]
@@ -2741,7 +3074,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T07:35:01.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 11,
+    "heat": 10,
     "tags": []
   },
   {
@@ -2755,7 +3088,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T07:32:01.000Z",
     "collectedAt": "2026-09-20T11:10:44.377Z",
-    "heat": 21,
+    "heat": 20,
     "tags": [
       "AI",
       "工具",
@@ -2772,7 +3105,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T07:04:26.000Z",
     "collectedAt": "2026-09-21T04:43:14.529Z",
-    "heat": 14,
+    "heat": 13,
     "tags": [
       "教程"
     ]
@@ -2787,7 +3120,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T07:03:44.000Z",
     "collectedAt": "2026-09-20T22:22:01.792Z",
-    "heat": 21,
+    "heat": 20,
     "tags": [
       "工具",
       "变现",
@@ -2804,7 +3137,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T07:00:00.000Z",
     "collectedAt": "2026-09-22T04:40:05.586Z",
-    "heat": 11,
+    "heat": 10,
     "tags": []
   },
   {
@@ -2818,7 +3151,7 @@
     "comments": 10,
     "publishedAt": "2026-09-20T06:19:20.000Z",
     "collectedAt": "2026-09-20T11:10:44.377Z",
-    "heat": 74,
+    "heat": 73,
     "tags": [
       "趣味"
     ]
@@ -2833,7 +3166,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T05:59:42.000Z",
     "collectedAt": "2026-09-21T04:43:13.567Z",
-    "heat": 11,
+    "heat": 10,
     "tags": []
   },
   {
@@ -2846,7 +3179,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T04:37:53.000Z",
     "collectedAt": "2026-09-20T15:56:58.800Z",
-    "heat": 10,
+    "heat": 9,
     "tags": []
   },
   {
@@ -2859,7 +3192,20 @@
     "comments": 0,
     "publishedAt": "2026-09-20T04:37:16.000Z",
     "collectedAt": "2026-09-21T23:11:26.507Z",
-    "heat": 10,
+    "heat": 9,
+    "tags": []
+  },
+  {
+    "id": "9621c93524638e3e",
+    "channel": "producthunt",
+    "title": "Fulvid",
+    "url": "https://www.producthunt.com/products/fulvid",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-20T04:12:19.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 9,
     "tags": []
   },
   {
@@ -2872,7 +3218,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T03:30:52.000Z",
     "collectedAt": "2026-09-20T18:41:24.125Z",
-    "heat": 14,
+    "heat": 13,
     "tags": [
       "AI"
     ]
@@ -2888,7 +3234,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T03:12:56.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 14,
+    "heat": 13,
     "tags": [
       "工具"
     ]
@@ -2903,7 +3249,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T03:01:47.000Z",
     "collectedAt": "2026-09-22T04:40:05.586Z",
-    "heat": 10,
+    "heat": 9,
     "tags": []
   },
   {
@@ -2916,7 +3262,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T02:25:26.000Z",
     "collectedAt": "2026-09-20T04:45:42.265Z",
-    "heat": 17,
+    "heat": 16,
     "tags": [
       "AI",
       "趣味"
@@ -2933,7 +3279,7 @@
     "comments": 5,
     "publishedAt": "2026-09-20T02:24:08.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 55,
+    "heat": 54,
     "tags": []
   },
   {
@@ -2947,7 +3293,7 @@
     "comments": 2,
     "publishedAt": "2026-09-20T02:03:57.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 44,
+    "heat": 43,
     "tags": [
       "AI",
       "工具"
@@ -2963,7 +3309,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T02:01:50.000Z",
     "collectedAt": "2026-09-20T04:45:42.265Z",
-    "heat": 17,
+    "heat": 16,
     "tags": [
       "AI",
       "工具"
@@ -2979,11 +3325,24 @@
     "comments": 0,
     "publishedAt": "2026-09-20T01:54:40.000Z",
     "collectedAt": "2026-09-20T04:45:42.265Z",
-    "heat": 17,
+    "heat": 16,
     "tags": [
       "工具",
       "变现"
     ]
+  },
+  {
+    "id": "36e37b236865bf9f",
+    "channel": "producthunt",
+    "title": "gg-friggin-ez",
+    "url": "https://www.producthunt.com/products/gg-friggin-ez",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-20T01:38:42.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 9,
+    "tags": []
   },
   {
     "id": "2922ba2d4274614f",
@@ -2996,7 +3355,7 @@
     "comments": 2,
     "publishedAt": "2026-09-20T01:34:39.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 44,
+    "heat": 43,
     "tags": [
       "AI",
       "工具"
@@ -3013,7 +3372,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T01:34:18.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 20,
+    "heat": 19,
     "tags": [
       "AI",
       "工具",
@@ -3031,7 +3390,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T01:21:15.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 13,
+    "heat": 12,
     "tags": [
       "工具"
     ]
@@ -3045,8 +3404,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-20T00:22:04.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
-    "heat": 13,
+    "collectedAt": "2026-09-22T16:48:00.719Z",
+    "heat": 12,
     "tags": [
       "AI"
     ]
@@ -3061,7 +3420,7 @@
     "comments": 0,
     "publishedAt": "2026-09-20T00:00:24.000Z",
     "collectedAt": "2026-09-20T15:56:58.800Z",
-    "heat": 13,
+    "heat": 12,
     "tags": [
       "工具"
     ]
@@ -3072,11 +3431,11 @@
     "title": "mizorewww/laya-coreml",
     "url": "https://github.com/mizorewww/laya-coreml",
     "summary": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
-    "points": 1097,
+    "points": 1191,
     "comments": 0,
     "publishedAt": "2026-09-19T23:14:13Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 61,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 60,
     "tags": [
       "工具"
     ],
@@ -3092,7 +3451,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T22:41:39.000Z",
     "collectedAt": "2026-09-22T11:25:38.904Z",
-    "heat": 9,
+    "heat": 8,
     "tags": []
   },
   {
@@ -3105,7 +3464,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T22:29:56.000Z",
     "collectedAt": "2026-09-20T18:41:24.125Z",
-    "heat": 9,
+    "heat": 8,
     "tags": []
   },
   {
@@ -3118,7 +3477,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T22:00:59.000Z",
     "collectedAt": "2026-09-20T00:03:43.632Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI",
       "工具"
@@ -3134,7 +3493,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T21:25:12.000Z",
     "collectedAt": "2026-09-20T04:45:42.265Z",
-    "heat": 9,
+    "heat": 8,
     "tags": []
   },
   {
@@ -3147,7 +3506,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T20:39:07.000Z",
     "collectedAt": "2026-09-20T04:45:42.265Z",
-    "heat": 9,
+    "heat": 8,
     "tags": []
   },
   {
@@ -3160,7 +3519,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T20:30:42.000Z",
     "collectedAt": "2026-09-20T00:03:43.632Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI",
       "工具"
@@ -3176,7 +3535,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T20:05:33.000Z",
     "collectedAt": "2026-09-21T04:43:13.567Z",
-    "heat": 9,
+    "heat": 8,
     "tags": []
   },
   {
@@ -3188,8 +3547,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-19T19:52:02.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
-    "heat": 16,
+    "collectedAt": "2026-09-22T16:48:00.719Z",
+    "heat": 15,
     "tags": [
       "AI",
       "工具"
@@ -3205,7 +3564,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T19:40:43.000Z",
     "collectedAt": "2026-09-20T04:45:42.265Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "工具",
       "变现"
@@ -3221,7 +3580,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T19:14:16.000Z",
     "collectedAt": "2026-09-20T00:03:43.632Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "趣味"
     ]
@@ -3236,7 +3595,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T19:14:00.000Z",
     "collectedAt": "2026-09-20T04:45:42.265Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI",
       "工具"
@@ -3252,7 +3611,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T18:44:15.000Z",
     "collectedAt": "2026-09-20T00:03:43.632Z",
-    "heat": 9,
+    "heat": 8,
     "tags": []
   },
   {
@@ -3265,7 +3624,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T17:24:57.000Z",
     "collectedAt": "2026-09-21T19:17:04.583Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "AI"
     ]
@@ -3280,7 +3639,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T17:24:20.000Z",
     "collectedAt": "2026-09-19T20:30:43.739Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "工具"
     ]
@@ -3294,7 +3653,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-19T17:10:08.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
+    "collectedAt": "2026-09-22T16:48:00.719Z",
     "heat": 8,
     "tags": []
   },
@@ -3309,7 +3668,7 @@
     "comments": 2,
     "publishedAt": "2026-09-19T17:07:48.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 43,
+    "heat": 42,
     "tags": [
       "AI",
       "开源"
@@ -3325,7 +3684,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T17:07:04.000Z",
     "collectedAt": "2026-09-19T17:10:17.242Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "AI"
     ]
@@ -3340,7 +3699,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T15:50:58.000Z",
     "collectedAt": "2026-09-19T17:10:17.242Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "工具",
       "教程"
@@ -3356,7 +3715,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T15:43:01.000Z",
     "collectedAt": "2026-09-19T20:30:43.739Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "工具",
       "教程"
@@ -3373,7 +3732,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T15:28:34.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "AI",
       "开源"
@@ -3389,7 +3748,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T15:21:47.000Z",
     "collectedAt": "2026-09-20T00:03:43.632Z",
-    "heat": 8,
+    "heat": 7,
     "tags": []
   },
   {
@@ -3417,7 +3776,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T14:58:53.000Z",
     "collectedAt": "2026-09-19T17:10:17.242Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "AI",
       "工具"
@@ -3439,16 +3798,29 @@
     ]
   },
   {
+    "id": "17421aaaa2116c28",
+    "channel": "producthunt",
+    "title": "Keet",
+    "url": "https://www.producthunt.com/products/keet-2",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-19T13:57:21.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 7,
+    "tags": []
+  },
+  {
     "id": "72c605ffebc36801",
     "channel": "github",
     "title": "mizorewww/laya-mlx",
     "url": "https://github.com/mizorewww/laya-mlx",
     "summary": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
-    "points": 4809,
+    "points": 5182,
     "comments": 0,
     "publishedAt": "2026-09-19T13:50:26Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 66,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 65,
     "tags": [],
     "author": "Python"
   },
@@ -3462,7 +3834,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T13:44:47.000Z",
     "collectedAt": "2026-09-20T04:45:42.265Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "AI",
       "教程"
@@ -3478,7 +3850,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T13:32:04.000Z",
     "collectedAt": "2026-09-19T17:10:17.242Z",
-    "heat": 8,
+    "heat": 7,
     "tags": []
   },
   {
@@ -3487,10 +3859,10 @@
     "title": "newliver666/apk-reverse",
     "url": "https://github.com/newliver666/apk-reverse",
     "summary": "Suitable for Android APK reverse engineering analysis",
-    "points": 886,
+    "points": 964,
     "comments": 0,
     "publishedAt": "2026-09-19T13:12:54Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 54,
     "tags": [],
     "author": "Python"
@@ -3504,7 +3876,7 @@
     "points": 1518,
     "comments": 0,
     "publishedAt": "2026-09-19T12:26:55.767Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 64,
     "tags": [
       "AI",
@@ -3522,7 +3894,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T12:26:55.767Z",
     "collectedAt": "2026-09-20T04:45:41.571Z",
-    "heat": 60,
+    "heat": 59,
     "tags": [
       "AI"
     ],
@@ -3539,7 +3911,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T12:22:18.000Z",
     "collectedAt": "2026-09-20T04:45:41.871Z",
-    "heat": 18,
+    "heat": 17,
     "tags": [
       "AI",
       "工具",
@@ -3590,7 +3962,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T11:48:49.000Z",
     "collectedAt": "2026-09-20T00:03:43.171Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "出海"
     ]
@@ -3605,7 +3977,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T11:45:36.000Z",
     "collectedAt": "2026-09-19T12:26:56.609Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "AI"
     ]
@@ -3620,7 +3992,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-19T11:38:43Z",
-    "collectedAt": "2026-09-22T11:25:39.098Z",
+    "collectedAt": "2026-09-22T16:48:00.712Z",
     "heat": 14,
     "tags": [
       "工具",
@@ -3638,7 +4010,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T11:25:59.000Z",
     "collectedAt": "2026-09-20T00:03:43.171Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "工具"
     ]
@@ -3653,7 +4025,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T10:34:59.000Z",
     "collectedAt": "2026-09-19T12:26:56.609Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "工具"
     ]
@@ -3669,7 +4041,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T10:11:36.000Z",
     "collectedAt": "2026-09-20T00:03:43.171Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "AI"
     ]
@@ -3684,7 +4056,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T10:09:53.000Z",
     "collectedAt": "2026-09-19T17:10:17.242Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "工具"
     ]
@@ -3699,7 +4071,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T10:02:37.000Z",
     "collectedAt": "2026-09-19T20:30:43.739Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "教程"
     ]
@@ -3715,7 +4087,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T09:35:51.000Z",
     "collectedAt": "2026-09-20T00:03:43.171Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "工具"
     ]
@@ -3731,7 +4103,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T09:12:47.000Z",
     "collectedAt": "2026-09-20T00:03:43.171Z",
-    "heat": 14,
+    "heat": 13,
     "tags": [
       "AI",
       "开源"
@@ -3747,7 +4119,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T08:54:55.000Z",
     "collectedAt": "2026-09-21T04:43:13.567Z",
-    "heat": 7,
+    "heat": 6,
     "tags": []
   },
   {
@@ -3761,7 +4133,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T08:51:08.000Z",
     "collectedAt": "2026-09-20T00:03:43.171Z",
-    "heat": 7,
+    "heat": 6,
     "tags": []
   },
   {
@@ -3775,7 +4147,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T08:37:03.000Z",
     "collectedAt": "2026-09-19T17:10:16.589Z",
-    "heat": 7,
+    "heat": 6,
     "tags": []
   },
   {
@@ -3789,7 +4161,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T07:53:35.000Z",
     "collectedAt": "2026-09-19T12:26:56.303Z",
-    "heat": 17,
+    "heat": 16,
     "tags": [
       "AI",
       "工具",
@@ -3806,7 +4178,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T07:12:51.000Z",
     "collectedAt": "2026-09-19T07:16:40.601Z",
-    "heat": 7,
+    "heat": 6,
     "tags": []
   },
   {
@@ -3819,7 +4191,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T07:08:09.000Z",
     "collectedAt": "2026-09-19T17:10:17.242Z",
-    "heat": 17,
+    "heat": 16,
     "tags": [
       "AI",
       "工具",
@@ -3836,7 +4208,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T07:00:00.000Z",
     "collectedAt": "2026-09-21T23:11:27.480Z",
-    "heat": 7,
+    "heat": 6,
     "tags": []
   },
   {
@@ -3849,7 +4221,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T06:59:49.000Z",
     "collectedAt": "2026-09-21T04:43:13.567Z",
-    "heat": 7,
+    "heat": 6,
     "tags": []
   },
   {
@@ -3863,7 +4235,7 @@
     "comments": 2,
     "publishedAt": "2026-09-19T06:52:08.000Z",
     "collectedAt": "2026-09-19T07:16:40.046Z",
-    "heat": 41,
+    "heat": 40,
     "tags": [
       "AI",
       "开源"
@@ -3879,7 +4251,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T06:44:50.000Z",
     "collectedAt": "2026-09-20T04:45:41.696Z",
-    "heat": 7,
+    "heat": 6,
     "tags": []
   },
   {
@@ -3923,7 +4295,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T06:05:51.000Z",
     "collectedAt": "2026-09-19T12:26:56.609Z",
-    "heat": 17,
+    "heat": 16,
     "tags": [
       "工具",
       "变现",
@@ -3941,7 +4313,7 @@
     "comments": 4,
     "publishedAt": "2026-09-19T06:02:13.000Z",
     "collectedAt": "2026-09-19T07:16:40.046Z",
-    "heat": 57,
+    "heat": 56,
     "tags": [
       "AI",
       "工具",
@@ -3958,7 +4330,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T05:43:46.000Z",
     "collectedAt": "2026-09-19T07:16:40.601Z",
-    "heat": 14,
+    "heat": 13,
     "tags": [
       "工具",
       "变现"
@@ -3974,10 +4346,23 @@
     "comments": 0,
     "publishedAt": "2026-09-19T04:58:22.000Z",
     "collectedAt": "2026-09-19T12:26:56.609Z",
-    "heat": 10,
+    "heat": 9,
     "tags": [
       "AI"
     ]
+  },
+  {
+    "id": "5c965878db8b3116",
+    "channel": "producthunt",
+    "title": "VideoFlow Studio",
+    "url": "https://www.producthunt.com/products/videoflow-studio",
+    "summary": "Discussion | Link",
+    "points": 0,
+    "comments": 0,
+    "publishedAt": "2026-09-19T04:35:10.000Z",
+    "collectedAt": "2026-09-22T16:48:00.437Z",
+    "heat": 6,
+    "tags": []
   },
   {
     "id": "1744e017d4398ec2",
@@ -4022,7 +4407,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T03:26:36.000Z",
     "collectedAt": "2026-09-19T07:16:40.601Z",
-    "heat": 10,
+    "heat": 9,
     "tags": [
       "工具"
     ]
@@ -4054,7 +4439,7 @@
     "comments": 2,
     "publishedAt": "2026-09-19T03:13:41.000Z",
     "collectedAt": "2026-09-19T07:16:40.046Z",
-    "heat": 41,
+    "heat": 40,
     "tags": [
       "AI",
       "工具"
@@ -4087,7 +4472,7 @@
     "comments": 0,
     "publishedAt": "2026-09-19T01:52:40.000Z",
     "collectedAt": "2026-09-19T07:16:40.601Z",
-    "heat": 13,
+    "heat": 12,
     "tags": [
       "工具",
       "教程"
@@ -4104,7 +4489,7 @@
     "comments": 2,
     "publishedAt": "2026-09-19T01:38:18.000Z",
     "collectedAt": "2026-09-19T07:16:40.046Z",
-    "heat": 37,
+    "heat": 36,
     "tags": [
       "趣味"
     ]
@@ -4118,7 +4503,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-18T23:57:57.000Z",
-    "collectedAt": "2026-09-22T11:25:39.005Z",
+    "collectedAt": "2026-09-22T16:48:00.719Z",
     "heat": 9,
     "tags": [
       "AI"
@@ -4149,7 +4534,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T23:10:18.000Z",
     "collectedAt": "2026-09-19T00:09:14.118Z",
-    "heat": 6,
+    "heat": 5,
     "tags": []
   },
   {
@@ -4162,7 +4547,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T22:30:15.000Z",
     "collectedAt": "2026-09-19T00:09:14.118Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI",
       "工具",
@@ -4179,7 +4564,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T21:43:18.000Z",
     "collectedAt": "2026-09-19T00:09:14.118Z",
-    "heat": 6,
+    "heat": 5,
     "tags": []
   },
   {
@@ -4192,7 +4577,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T21:06:54.000Z",
     "collectedAt": "2026-09-19T12:26:56.609Z",
-    "heat": 16,
+    "heat": 15,
     "tags": [
       "AI",
       "工具",
@@ -4209,7 +4594,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T19:22:08.000Z",
     "collectedAt": "2026-09-19T20:30:43.739Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "趣味"
     ]
@@ -4224,7 +4609,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T19:21:32.000Z",
     "collectedAt": "2026-09-22T11:25:39.005Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "AI"
     ]
@@ -4239,7 +4624,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T19:09:27.000Z",
     "collectedAt": "2026-09-21T19:17:04.636Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "AI"
     ]
@@ -4312,7 +4697,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T17:28:01.000Z",
     "collectedAt": "2026-09-19T00:09:14.118Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "工具"
     ]
@@ -4327,7 +4712,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T17:16:18.000Z",
     "collectedAt": "2026-09-22T04:40:04.248Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "工具"
     ]
@@ -4342,7 +4727,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T17:12:42.000Z",
     "collectedAt": "2026-09-19T00:09:14.118Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "教程"
     ]
@@ -4352,10 +4737,10 @@
     "channel": "github",
     "title": "githubnext/localjev",
     "url": "https://github.com/githubnext/localjev",
-    "points": 713,
+    "points": 722,
     "comments": 0,
     "publishedAt": "2026-09-18T16:59:55Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 50,
     "tags": [],
     "author": "TypeScript"
@@ -4383,7 +4768,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T16:35:32Z",
     "collectedAt": "2026-09-20T11:10:44.033Z",
-    "heat": 52,
+    "heat": 51,
     "tags": [
       "AI"
     ],
@@ -4399,7 +4784,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T16:01:05.000Z",
     "collectedAt": "2026-09-19T00:09:14.118Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "AI",
       "趣味"
@@ -4415,7 +4800,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T15:41:09.000Z",
     "collectedAt": "2026-09-18T16:18:25.324Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "教程"
     ]
@@ -4506,7 +4891,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T14:08:45.000Z",
     "collectedAt": "2026-09-18T20:49:29.005Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "AI",
       "工具",
@@ -4523,7 +4908,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T13:56:07.000Z",
     "collectedAt": "2026-09-20T04:45:41.696Z",
-    "heat": 5,
+    "heat": 4,
     "tags": []
   },
   {
@@ -4536,7 +4921,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T13:48:24.000Z",
     "collectedAt": "2026-09-19T12:26:56.609Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "工具",
       "教程"
@@ -4552,7 +4937,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T13:28:57.000Z",
     "collectedAt": "2026-09-20T04:45:41.696Z",
-    "heat": 5,
+    "heat": 4,
     "tags": []
   },
   {
@@ -4613,7 +4998,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T12:06:57.000Z",
     "collectedAt": "2026-09-19T00:09:13.628Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "AI",
       "工具"
@@ -4676,8 +5061,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-18T11:10:30Z",
-    "collectedAt": "2026-09-22T11:25:39.098Z",
-    "heat": 12,
+    "collectedAt": "2026-09-22T16:48:00.712Z",
+    "heat": 11,
     "tags": [
       "工具",
       "开源"
@@ -4709,7 +5094,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T10:33:50.000Z",
     "collectedAt": "2026-09-19T00:09:13.628Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "AI",
       "工具",
@@ -4743,7 +5128,7 @@
     "comments": 2,
     "publishedAt": "2026-09-18T10:25:03.000Z",
     "collectedAt": "2026-09-19T00:09:13.628Z",
-    "heat": 36,
+    "heat": 35,
     "tags": [
       "AI"
     ]
@@ -4773,7 +5158,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T09:58:55.000Z",
     "collectedAt": "2026-09-21T23:11:27.480Z",
-    "heat": 5,
+    "heat": 4,
     "tags": []
   },
   {
@@ -4835,7 +5220,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T09:29:43.000Z",
     "collectedAt": "2026-09-18T11:03:43.790Z",
-    "heat": 15,
+    "heat": 14,
     "tags": [
       "AI",
       "工具",
@@ -4848,10 +5233,10 @@
     "title": "bespokelabsai/nimble",
     "url": "https://github.com/bespokelabsai/nimble",
     "summary": "Local typed decisions, contrastive data curation, and model evaluation.",
-    "points": 1566,
+    "points": 1596,
     "comments": 0,
     "publishedAt": "2026-09-18T09:07:48Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 58,
     "tags": [
       "AI"
@@ -4868,7 +5253,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T09:05:12.000Z",
     "collectedAt": "2026-09-18T11:03:43.790Z",
-    "heat": 5,
+    "heat": 4,
     "tags": []
   },
   {
@@ -4882,7 +5267,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T08:59:52.000Z",
     "collectedAt": "2026-09-19T00:09:13.628Z",
-    "heat": 5,
+    "heat": 4,
     "tags": []
   },
   {
@@ -4912,7 +5297,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T08:26:08.000Z",
     "collectedAt": "2026-09-18T11:03:42.691Z",
-    "heat": 8,
+    "heat": 7,
     "tags": [
       "开源"
     ]
@@ -4959,7 +5344,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T07:21:45.000Z",
     "collectedAt": "2026-09-19T07:16:40.601Z",
-    "heat": 8,
+    "heat": 7,
     "tags": [
       "AI"
     ]
@@ -5035,7 +5420,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T06:45:54Z",
     "collectedAt": "2026-09-19T07:16:39.748Z",
-    "heat": 49,
+    "heat": 48,
     "tags": [
       "AI"
     ],
@@ -5077,7 +5462,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T05:36:05.000Z",
     "collectedAt": "2026-09-18T11:03:43.790Z",
-    "heat": 8,
+    "heat": 7,
     "tags": [
       "AI"
     ]
@@ -5100,11 +5485,11 @@
     "channel": "huggingface",
     "title": "convaiinnovations/laya",
     "url": "https://huggingface.co/convaiinnovations/laya",
-    "summary": "0 下载 · 2,156 喜欢 · text-classification",
-    "points": 2156,
+    "summary": "0 下载 · 2,353 喜欢 · text-classification",
+    "points": 2353,
     "comments": 0,
     "publishedAt": "2026-09-18T05:05:55.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 62,
     "tags": [
       "AI"
@@ -5115,10 +5500,10 @@
     "channel": "github",
     "title": "NandhaKishorM/laya",
     "url": "https://github.com/NandhaKishorM/laya",
-    "points": 13806,
+    "points": 15379,
     "comments": 0,
     "publishedAt": "2026-09-18T04:46:33Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 64,
     "tags": [],
     "author": "Python"
@@ -5149,7 +5534,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T03:57:39.000Z",
     "collectedAt": "2026-09-18T04:32:59.051Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "教程",
       "趣味"
@@ -5165,7 +5550,7 @@
     "comments": 4,
     "publishedAt": "2026-09-18T03:47:35.000Z",
     "collectedAt": "2026-09-18T04:32:58.737Z",
-    "heat": 48,
+    "heat": 47,
     "tags": [
       "开源"
     ]
@@ -5269,7 +5654,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T02:54:44.000Z",
     "collectedAt": "2026-09-18T04:32:58.737Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "AI",
       "工具"
@@ -5285,7 +5670,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T02:52:02.000Z",
     "collectedAt": "2026-09-18T04:32:59.051Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "工具",
       "趣味"
@@ -5302,7 +5687,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T02:50:24.000Z",
     "collectedAt": "2026-09-18T04:32:58.737Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "AI",
       "变现"
@@ -5431,8 +5816,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-18T01:55:56Z",
-    "collectedAt": "2026-09-22T11:25:39.098Z",
-    "heat": 11,
+    "collectedAt": "2026-09-22T16:48:00.712Z",
+    "heat": 10,
     "tags": [
       "工具",
       "开源"
@@ -5461,7 +5846,7 @@
     "comments": 0,
     "publishedAt": "2026-09-18T00:37:36.000Z",
     "collectedAt": "2026-09-18T04:32:59.051Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "AI",
       "工具"
@@ -5492,8 +5877,8 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-18T00:12:31Z",
-    "collectedAt": "2026-09-22T11:25:39.098Z",
-    "heat": 11,
+    "collectedAt": "2026-09-22T16:48:00.712Z",
+    "heat": 10,
     "tags": [
       "工具",
       "开源"
@@ -5507,7 +5892,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-18T00:00:00.000Z",
-    "collectedAt": "2026-09-22T11:25:39.068Z",
+    "collectedAt": "2026-09-22T16:48:00.711Z",
     "heat": 7,
     "tags": [
       "AI"
@@ -5538,7 +5923,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T23:37:27.000Z",
     "collectedAt": "2026-09-20T22:22:01.501Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "AI",
       "教程"
@@ -5554,7 +5939,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T23:34:12.000Z",
     "collectedAt": "2026-09-18T20:49:28.473Z",
-    "heat": 4,
+    "heat": 3,
     "tags": []
   },
   {
@@ -5583,7 +5968,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T22:16:57.000Z",
     "collectedAt": "2026-09-18T00:04:38.035Z",
-    "heat": 14,
+    "heat": 13,
     "tags": [
       "工具",
       "开源",
@@ -5615,7 +6000,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T21:18:36.000Z",
     "collectedAt": "2026-09-18T11:03:43.790Z",
-    "heat": 4,
+    "heat": 3,
     "tags": []
   },
   {
@@ -5628,7 +6013,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T21:11:16.000Z",
     "collectedAt": "2026-09-18T00:04:38.035Z",
-    "heat": 4,
+    "heat": 3,
     "tags": []
   },
   {
@@ -5652,10 +6037,10 @@
     "title": "jaredpalmer/kev",
     "url": "https://github.com/jaredpalmer/kev",
     "summary": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
-    "points": 3017,
+    "points": 3571,
     "comments": 0,
     "publishedAt": "2026-09-17T20:49:39Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 62,
     "tags": [
       "AI"
@@ -5672,7 +6057,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T20:49:03.000Z",
     "collectedAt": "2026-09-19T00:09:13.141Z",
-    "heat": 4,
+    "heat": 3,
     "tags": []
   },
   {
@@ -5866,10 +6251,10 @@
     "title": "TianyuCodings/NanoJev",
     "url": "https://github.com/TianyuCodings/NanoJev",
     "summary": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
-    "points": 1930,
+    "points": 1969,
     "comments": 0,
     "publishedAt": "2026-09-17T16:08:30Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 58,
     "tags": [
       "AI"
@@ -6009,10 +6394,10 @@
     "title": "yibie/awesome-jev",
     "url": "https://github.com/yibie/awesome-jev",
     "summary": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
-    "points": 1178,
+    "points": 1250,
     "comments": 0,
     "publishedAt": "2026-09-17T14:23:21Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 55,
     "tags": [
       "AI"
@@ -6029,7 +6414,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T14:20:38.000Z",
     "collectedAt": "2026-09-17T21:15:36.566Z",
-    "heat": 7,
+    "heat": 6,
     "tags": [
       "趣味"
     ]
@@ -6045,7 +6430,7 @@
     "comments": 2,
     "publishedAt": "2026-09-17T14:17:33.000Z",
     "collectedAt": "2026-09-18T00:04:37.564Z",
-    "heat": 31,
+    "heat": 30,
     "tags": []
   },
   {
@@ -6059,7 +6444,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T14:06:49.000Z",
     "collectedAt": "2026-09-18T00:04:37.564Z",
-    "heat": 7,
+    "heat": 6,
     "tags": [
       "工具"
     ]
@@ -6074,7 +6459,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T14:02:40.000Z",
     "collectedAt": "2026-09-18T04:32:59.051Z",
-    "heat": 7,
+    "heat": 6,
     "tags": [
       "AI"
     ]
@@ -6119,7 +6504,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T13:45:45.000Z",
     "collectedAt": "2026-09-18T04:32:59.051Z",
-    "heat": 7,
+    "heat": 6,
     "tags": [
       "趣味"
     ]
@@ -6150,7 +6535,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T13:40:53.000Z",
     "collectedAt": "2026-09-17T16:50:02.953Z",
-    "heat": 7,
+    "heat": 6,
     "tags": [
       "工具"
     ]
@@ -6207,8 +6592,8 @@
     "points": 2731,
     "comments": 0,
     "publishedAt": "2026-09-17T11:30:31.483Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 64,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 63,
     "tags": [
       "AI",
       "工具"
@@ -6224,7 +6609,7 @@
     "points": 1350,
     "comments": 0,
     "publishedAt": "2026-09-17T11:30:31.483Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 62,
     "tags": [
       "AI",
@@ -6242,7 +6627,7 @@
     "points": 6125,
     "comments": 0,
     "publishedAt": "2026-09-17T11:30:31.483Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 69,
     "tags": [
       "AI",
@@ -6259,8 +6644,8 @@
     "points": 3526,
     "comments": 0,
     "publishedAt": "2026-09-17T11:30:31.483Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 66,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 65,
     "tags": [
       "AI",
       "工具"
@@ -6278,7 +6663,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T11:21:38.000Z",
     "collectedAt": "2026-09-18T00:04:37.564Z",
-    "heat": 10,
+    "heat": 9,
     "tags": [
       "AI",
       "工具"
@@ -6339,7 +6724,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T10:56:03.000Z",
     "collectedAt": "2026-09-17T16:50:02.452Z",
-    "heat": 10,
+    "heat": 9,
     "tags": [
       "AI",
       "工具"
@@ -6399,7 +6784,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T10:12:55.000Z",
     "collectedAt": "2026-09-17T11:30:31.879Z",
-    "heat": 10,
+    "heat": 9,
     "tags": [
       "AI",
       "开源"
@@ -6428,7 +6813,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T09:54:47.000Z",
     "collectedAt": "2026-09-17T11:30:32.115Z",
-    "heat": 10,
+    "heat": 9,
     "tags": [
       "AI",
       "工具"
@@ -6514,7 +6899,7 @@
     "comments": 2,
     "publishedAt": "2026-09-17T08:23:04.000Z",
     "collectedAt": "2026-09-17T11:30:31.879Z",
-    "heat": 34,
+    "heat": 33,
     "tags": [
       "AI"
     ]
@@ -6575,7 +6960,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T07:17:28.000Z",
     "collectedAt": "2026-09-17T11:30:32.115Z",
-    "heat": 10,
+    "heat": 9,
     "tags": [
       "AI",
       "工具"
@@ -6638,7 +7023,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T06:40:23.000Z",
     "collectedAt": "2026-09-17T21:15:35.440Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6692,10 +7077,10 @@
     "title": "tamaratran/fast-jev-compaction",
     "url": "https://github.com/tamaratran/fast-jev-compaction",
     "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
-    "points": 6175,
+    "points": 6258,
     "comments": 0,
     "publishedAt": "2026-09-17T05:57:20Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 69,
     "tags": [
       "AI",
@@ -6713,7 +7098,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T05:56:36.000Z",
     "collectedAt": "2026-09-20T04:45:41.696Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6726,7 +7111,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T05:42:27.000Z",
     "collectedAt": "2026-09-18T00:04:37.258Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6739,7 +7124,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T05:23:24.000Z",
     "collectedAt": "2026-09-17T16:50:02.304Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6748,10 +7133,10 @@
     "title": "hydra-db/open-glean",
     "url": "https://github.com/hydra-db/open-glean",
     "summary": "An open-source AI platform for knowledge work. Connect your apps, find answers, and get work done.",
-    "points": 724,
+    "points": 827,
     "comments": 0,
     "publishedAt": "2026-09-17T05:22:08Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 58,
     "tags": [
       "AI",
@@ -6785,7 +7170,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T04:26:44.000Z",
     "collectedAt": "2026-09-18T20:49:28.473Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6798,7 +7183,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T04:06:32.000Z",
     "collectedAt": "2026-09-17T04:43:03.496Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6826,7 +7211,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T04:03:29.000Z",
     "collectedAt": "2026-09-18T04:32:58.554Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6839,7 +7224,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T03:56:55.000Z",
     "collectedAt": "2026-09-18T04:32:58.554Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6852,7 +7237,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T03:15:12.000Z",
     "collectedAt": "2026-09-18T04:32:58.554Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -6911,7 +7296,7 @@
     "comments": 0,
     "publishedAt": "2026-09-17T02:48:27.000Z",
     "collectedAt": "2026-09-18T04:32:58.554Z",
-    "heat": 3,
+    "heat": 2,
     "tags": []
   },
   {
@@ -7131,7 +7516,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-17T00:00:00.000Z",
-    "collectedAt": "2026-09-22T11:25:39.068Z",
+    "collectedAt": "2026-09-22T16:48:00.711Z",
     "heat": 6,
     "tags": [
       "AI"
@@ -7200,11 +7585,11 @@
     "channel": "huggingface",
     "title": "prism-ml/Ternary-Bonsai-2-27B-gguf",
     "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-    "summary": "2,569,604 下载 · 1,805 喜欢 · text-generation",
-    "points": 1805,
+    "summary": "2,569,604 下载 · 1,839 喜欢 · text-generation",
+    "points": 1839,
     "comments": 0,
     "publishedAt": "2026-09-16T23:40:56.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 59,
     "tags": [
       "AI"
@@ -7229,11 +7614,11 @@
     "title": "Mak5er/AirCard",
     "url": "https://github.com/Mak5er/AirCard",
     "summary": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
-    "points": 2459,
+    "points": 2686,
     "comments": 0,
     "publishedAt": "2026-09-16T22:20:15Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 62,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 63,
     "tags": [
       "AI",
       "工具"
@@ -7279,7 +7664,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T21:58:40.000Z",
     "collectedAt": "2026-09-16T22:51:15.559Z",
-    "heat": 6,
+    "heat": 5,
     "tags": [
       "教程"
     ]
@@ -7294,7 +7679,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T21:38:41.000Z",
     "collectedAt": "2026-09-17T04:43:03.496Z",
-    "heat": 6,
+    "heat": 5,
     "tags": [
       "变现"
     ]
@@ -7305,10 +7690,10 @@
     "title": "jarrodwatts/jev-trader",
     "url": "https://github.com/jarrodwatts/jev-trader",
     "summary": "One AI trade decision every Monad block. Jev on Kuru MON-USDC.",
-    "points": 1956,
+    "points": 2006,
     "comments": 0,
     "publishedAt": "2026-09-16T21:36:20Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 61,
     "tags": [
       "AI",
@@ -7322,11 +7707,11 @@
     "title": "browser-use/jev-ultrafast",
     "url": "https://github.com/browser-use/jev-ultrafast",
     "summary": "Fastest and cheapest web agent",
-    "points": 17352,
+    "points": 17761,
     "comments": 0,
     "publishedAt": "2026-09-16T21:30:12Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 66,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 65,
     "tags": [
       "AI"
     ],
@@ -7338,10 +7723,10 @@
     "title": "robbietilton/Compositor",
     "url": "https://github.com/robbietilton/Compositor",
     "summary": "The Photoshop alternative for Mac",
-    "points": 4667,
+    "points": 4767,
     "comments": 0,
     "publishedAt": "2026-09-16T20:35:54Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 60,
     "tags": [],
     "author": "Swift"
@@ -7382,7 +7767,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T20:22:02.000Z",
     "collectedAt": "2026-09-18T20:49:28.473Z",
-    "heat": 6,
+    "heat": 5,
     "tags": [
       "工具"
     ]
@@ -7397,7 +7782,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T19:44:35.000Z",
     "collectedAt": "2026-09-17T04:43:03.496Z",
-    "heat": 6,
+    "heat": 5,
     "tags": [
       "AI"
     ]
@@ -7433,12 +7818,12 @@
     "channel": "huggingface",
     "title": "AlexWortega/openjev",
     "url": "https://huggingface.co/AlexWortega/openjev",
-    "summary": "0 下载 · 444 喜欢 · text-classification",
-    "points": 444,
+    "summary": "0 下载 · 470 喜欢 · text-classification",
+    "points": 470,
     "comments": 0,
     "publishedAt": "2026-09-16T18:25:10.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
-    "heat": 45,
+    "collectedAt": "2026-09-22T16:48:00.501Z",
+    "heat": 46,
     "tags": []
   },
   {
@@ -7451,7 +7836,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T18:09:49.000Z",
     "collectedAt": "2026-09-19T12:26:56.223Z",
-    "heat": 6,
+    "heat": 5,
     "tags": [
       "AI"
     ]
@@ -7493,7 +7878,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T17:51:33.000Z",
     "collectedAt": "2026-09-16T22:51:15.574Z",
-    "heat": 6,
+    "heat": 5,
     "tags": [
       "AI"
     ]
@@ -7504,10 +7889,10 @@
     "title": "awlevin/typesafe-computer-use",
     "url": "https://github.com/awlevin/typesafe-computer-use",
     "summary": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
-    "points": 790,
+    "points": 814,
     "comments": 0,
     "publishedAt": "2026-09-16T17:48:45Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 51,
     "tags": [
       "工具"
@@ -7524,7 +7909,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T17:28:37.000Z",
     "collectedAt": "2026-09-16T18:07:49.452Z",
-    "heat": 6,
+    "heat": 5,
     "tags": [
       "AI"
     ]
@@ -7540,7 +7925,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T17:26:08.000Z",
     "collectedAt": "2026-09-16T22:51:15.574Z",
-    "heat": 6,
+    "heat": 5,
     "tags": [
       "AI"
     ]
@@ -7822,7 +8207,7 @@
     "points": 4197,
     "comments": 0,
     "publishedAt": "2026-09-16T13:25:29.293Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 62,
     "tags": [
       "AI"
@@ -7838,7 +8223,7 @@
     "points": 526,
     "comments": 0,
     "publishedAt": "2026-09-16T13:25:29.293Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 48,
     "tags": [
       "开源"
@@ -7854,7 +8239,7 @@
     "points": 1401,
     "comments": 0,
     "publishedAt": "2026-09-16T13:25:29.293Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 61,
     "tags": [
       "AI",
@@ -8046,7 +8431,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T11:35:42.000Z",
     "collectedAt": "2026-09-16T13:25:30.090Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "工具",
       "变现"
@@ -8063,7 +8448,7 @@
     "comments": 3,
     "publishedAt": "2026-09-16T11:26:32.000Z",
     "collectedAt": "2026-09-16T13:25:29.804Z",
-    "heat": 47,
+    "heat": 46,
     "tags": [
       "AI",
       "工具",
@@ -8150,10 +8535,10 @@
     "channel": "github",
     "title": "vinnylarouge/jevlike",
     "url": "https://github.com/vinnylarouge/jevlike",
-    "points": 1198,
+    "points": 1219,
     "comments": 0,
     "publishedAt": "2026-09-16T10:26:01Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 50,
     "tags": [],
     "author": "Python"
@@ -8186,7 +8571,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T09:53:17.000Z",
     "collectedAt": "2026-09-16T13:25:30.090Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "AI",
       "趣味"
@@ -8202,7 +8587,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T09:41:44.000Z",
     "collectedAt": "2026-09-16T13:25:30.090Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "AI",
       "开源"
@@ -8287,7 +8672,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T07:30:59.000Z",
     "collectedAt": "2026-09-16T07:35:58.046Z",
-    "heat": 9,
+    "heat": 8,
     "tags": [
       "AI",
       "变现"
@@ -8401,11 +8786,11 @@
     "channel": "huggingface",
     "title": "XingChen-AGI/Xing4.0-29B-A4B",
     "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-    "summary": "30,627 下载 · 1,228 喜欢 · text-generation",
-    "points": 1228,
+    "summary": "30,627 下载 · 1,299 喜欢 · text-generation",
+    "points": 1299,
     "comments": 0,
     "publishedAt": "2026-09-16T06:44:40.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 52,
     "tags": []
   },
@@ -8548,7 +8933,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T04:32:52.000Z",
     "collectedAt": "2026-09-16T07:35:58.046Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "工具",
       "变现",
@@ -8641,11 +9026,11 @@
     "title": "TheoLeeCJ/SemIf",
     "url": "https://github.com/TheoLeeCJ/SemIf",
     "summary": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
-    "points": 3557,
+    "points": 3702,
     "comments": 0,
     "publishedAt": "2026-09-16T03:51:21Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 57,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 58,
     "tags": [],
     "author": "Python"
   },
@@ -8689,7 +9074,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T03:20:34.000Z",
     "collectedAt": "2026-09-18T04:32:58.554Z",
-    "heat": 2,
+    "heat": 1,
     "tags": []
   },
   {
@@ -8702,7 +9087,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T02:59:25.000Z",
     "collectedAt": "2026-09-20T04:45:41.696Z",
-    "heat": 2,
+    "heat": 1,
     "tags": []
   },
   {
@@ -8715,7 +9100,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T02:38:34.000Z",
     "collectedAt": "2026-09-18T04:32:59.961Z",
-    "heat": 2,
+    "heat": 1,
     "tags": []
   },
   {
@@ -8723,11 +9108,11 @@
     "channel": "huggingface",
     "title": "harshatheg/Qwen-2.5-1B-RLCD",
     "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
-    "summary": "0 下载 · 530 喜欢 · text-generation",
-    "points": 530,
+    "summary": "0 下载 · 538 喜欢 · text-generation",
+    "points": 538,
     "comments": 0,
     "publishedAt": "2026-09-16T01:35:33.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 49,
     "tags": [
       "AI"
@@ -8743,7 +9128,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T00:39:40.000Z",
     "collectedAt": "2026-09-18T00:04:38.438Z",
-    "heat": 2,
+    "heat": 1,
     "tags": []
   },
   {
@@ -8756,7 +9141,7 @@
     "comments": 0,
     "publishedAt": "2026-09-16T00:13:30.000Z",
     "collectedAt": "2026-09-16T13:25:30.090Z",
-    "heat": 12,
+    "heat": 11,
     "tags": [
       "AI",
       "工具",
@@ -9014,11 +9399,11 @@
     "channel": "huggingface",
     "title": "Comfy-Org/Qwen-Image-2.1",
     "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-    "summary": "1,429,925 下载 · 498 喜欢",
-    "points": 498,
+    "summary": "1,429,925 下载 · 540 喜欢",
+    "points": 540,
     "comments": 0,
     "publishedAt": "2026-09-15T19:41:09.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 49,
     "tags": [
       "AI"
@@ -9418,7 +9803,7 @@
     "comments": 0,
     "publishedAt": "2026-09-15T13:01:22.000Z",
     "collectedAt": "2026-09-16T00:08:25.618Z",
-    "heat": 5,
+    "heat": 4,
     "tags": [
       "工具"
     ]
@@ -9450,7 +9835,7 @@
     "comments": 0,
     "publishedAt": "2026-09-15T11:51:15Z",
     "collectedAt": "2026-09-21T23:11:26.395Z",
-    "heat": 58,
+    "heat": 57,
     "tags": [
       "AI"
     ],
@@ -9499,7 +9884,7 @@
     "points": 5565,
     "comments": 0,
     "publishedAt": "2026-09-15T11:35:43.582Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 60,
     "tags": [],
     "author": "C"
@@ -9565,7 +9950,7 @@
     "comments": 0,
     "publishedAt": "2026-09-15T11:23:43.000Z",
     "collectedAt": "2026-09-15T11:35:44.255Z",
-    "heat": 5,
+    "heat": 4,
     "tags": [
       "趣味"
     ]
@@ -9614,7 +9999,7 @@
     "comments": 0,
     "publishedAt": "2026-09-15T10:53:44.000Z",
     "collectedAt": "2026-09-15T11:35:44.255Z",
-    "heat": 5,
+    "heat": 4,
     "tags": [
       "工具"
     ]
@@ -9674,7 +10059,7 @@
     "comments": 0,
     "publishedAt": "2026-09-15T09:56:57.000Z",
     "collectedAt": "2026-09-17T04:43:02.823Z",
-    "heat": 5,
+    "heat": 4,
     "tags": [
       "工具"
     ]
@@ -9778,7 +10163,7 @@
     "comments": 0,
     "publishedAt": "2026-09-15T08:31:52.000Z",
     "collectedAt": "2026-09-15T11:35:44.255Z",
-    "heat": 5,
+    "heat": 4,
     "tags": [
       "AI"
     ]
@@ -9794,7 +10179,7 @@
     "comments": 0,
     "publishedAt": "2026-09-15T08:26:24.000Z",
     "collectedAt": "2026-09-15T11:35:44.059Z",
-    "heat": 5,
+    "heat": 4,
     "tags": [
       "工具"
     ]
@@ -9887,7 +10272,7 @@
     "comments": 2,
     "publishedAt": "2026-09-15T06:53:09.000Z",
     "collectedAt": "2026-09-15T11:35:44.059Z",
-    "heat": 39,
+    "heat": 38,
     "tags": [
       "AI",
       "工具",
@@ -10925,7 +11310,7 @@
     "comments": 0,
     "publishedAt": "2026-09-14T13:27:01.000Z",
     "collectedAt": "2026-09-14T23:04:18.170Z",
-    "heat": 8,
+    "heat": 7,
     "tags": [
       "AI",
       "工具"
@@ -10940,8 +11325,8 @@
     "points": 14499,
     "comments": 0,
     "publishedAt": "2026-09-14T12:32:54.772Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
-    "heat": 68,
+    "collectedAt": "2026-09-22T16:48:00.155Z",
+    "heat": 67,
     "tags": [
       "AI",
       "工具"
@@ -10974,7 +11359,7 @@
     "comments": 0,
     "publishedAt": "2026-09-14T12:09:13.000Z",
     "collectedAt": "2026-09-14T23:04:18.170Z",
-    "heat": 8,
+    "heat": 7,
     "tags": [
       "AI",
       "开源"
@@ -11116,7 +11501,7 @@
     "comments": 0,
     "publishedAt": "2026-09-14T10:13:48.000Z",
     "collectedAt": "2026-09-14T12:32:55.491Z",
-    "heat": 8,
+    "heat": 7,
     "tags": [
       "AI",
       "趣味"
@@ -11175,7 +11560,7 @@
     "comments": 0,
     "publishedAt": "2026-09-14T09:28:08.000Z",
     "collectedAt": "2026-09-14T12:32:55.491Z",
-    "heat": 8,
+    "heat": 7,
     "tags": [
       "AI",
       "工具"
@@ -11206,7 +11591,7 @@
     "comments": 0,
     "publishedAt": "2026-09-14T09:23:55.000Z",
     "collectedAt": "2026-09-15T11:35:44.255Z",
-    "heat": 8,
+    "heat": 7,
     "tags": [
       "工具",
       "变现"
@@ -11409,11 +11794,11 @@
     "channel": "huggingface",
     "title": "Qwen/Qwen-Image-2.1",
     "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-    "summary": "16,242 下载 · 1,629 喜欢 · text-to-image",
-    "points": 1629,
+    "summary": "16,242 下载 · 1,712 喜欢 · text-to-image",
+    "points": 1712,
     "comments": 0,
     "publishedAt": "2026-09-14T03:47:26.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 57,
     "tags": [
       "AI"
@@ -12063,7 +12448,7 @@
     "comments": 0,
     "publishedAt": "2026-09-13T16:49:37.000Z",
     "collectedAt": "2026-09-13T20:41:16.367Z",
-    "heat": 11,
+    "heat": 10,
     "tags": [
       "AI",
       "工具",
@@ -12453,7 +12838,7 @@
     "comments": 0,
     "publishedAt": "2026-09-13T11:39:36.225Z",
     "collectedAt": "2026-09-17T04:43:02.653Z",
-    "heat": 59,
+    "heat": 58,
     "tags": [
       "工具"
     ],
@@ -12616,7 +13001,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-13T08:30:46Z",
-    "collectedAt": "2026-09-22T11:25:39.098Z",
+    "collectedAt": "2026-09-22T16:48:00.712Z",
     "heat": 7,
     "tags": [
       "工具",
@@ -13626,7 +14011,7 @@
     "comments": 0,
     "publishedAt": "2026-09-12T12:07:21.470Z",
     "collectedAt": "2026-09-19T07:16:39.748Z",
-    "heat": 60,
+    "heat": 59,
     "tags": [
       "AI"
     ],
@@ -15033,7 +15418,7 @@
     "points": 5455,
     "comments": 0,
     "publishedAt": "2026-09-11T11:07:27.316Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 66,
     "tags": [
       "AI",
@@ -15879,7 +16264,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-11T00:20:28Z",
-    "collectedAt": "2026-09-22T11:25:39.098Z",
+    "collectedAt": "2026-09-22T16:48:00.712Z",
     "heat": 7,
     "tags": [
       "工具",
@@ -17124,7 +17509,7 @@
     "comments": 0,
     "publishedAt": "2026-09-10T07:50:26.000Z",
     "collectedAt": "2026-09-10T11:08:21.760Z",
-    "heat": 4,
+    "heat": 3,
     "tags": [
       "工具"
     ]
@@ -17156,7 +17541,7 @@
     "comments": 0,
     "publishedAt": "2026-09-10T07:38:22.000Z",
     "collectedAt": "2026-09-10T11:08:21.626Z",
-    "heat": 4,
+    "heat": 3,
     "tags": [
       "开源"
     ]
@@ -17217,7 +17602,7 @@
     "comments": 0,
     "publishedAt": "2026-09-10T06:51:52.000Z",
     "collectedAt": "2026-09-14T04:45:20.274Z",
-    "heat": 4,
+    "heat": 3,
     "tags": [
       "工具"
     ]
@@ -17329,7 +17714,7 @@
     "comments": 0,
     "publishedAt": "2026-09-10T03:54:48.000Z",
     "collectedAt": "2026-09-10T04:29:13.780Z",
-    "heat": 4,
+    "heat": 3,
     "tags": [
       "工具"
     ]
@@ -17523,11 +17908,11 @@
     "channel": "huggingface",
     "title": "deepseek-ai/DeepSeek-V4.1-Flash",
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-    "summary": "542,014 下载 · 3,581 喜欢 · image-text-to-text",
-    "points": 3581,
+    "summary": "542,014 下载 · 3,597 喜欢 · image-text-to-text",
+    "points": 3597,
     "comments": 0,
     "publishedAt": "2026-09-10T02:17:58.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 62,
     "tags": [
       "AI"
@@ -17991,11 +18376,11 @@
     "channel": "huggingface",
     "title": "m-a-p/YuE2-3B",
     "url": "https://huggingface.co/m-a-p/YuE2-3B",
-    "summary": "20,904 下载 · 963 喜欢 · text-to-audio",
-    "points": 963,
+    "summary": "20,904 下载 · 966 喜欢 · text-to-audio",
+    "points": 966,
     "comments": 0,
     "publishedAt": "2026-09-09T18:30:33.000Z",
-    "collectedAt": "2026-09-22T11:25:39.007Z",
+    "collectedAt": "2026-09-22T16:48:00.501Z",
     "heat": 49,
     "tags": []
   },
@@ -22646,7 +23031,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -22662,7 +23047,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "出海"
@@ -22678,7 +23063,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -22694,7 +23079,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -22708,7 +23093,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -22722,7 +23107,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -22738,7 +23123,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -22754,7 +23139,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -22768,7 +23153,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "工具",
@@ -22785,7 +23170,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -22799,7 +23184,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 10,
     "tags": [
       "AI",
@@ -22817,7 +23202,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "变现"
@@ -22833,7 +23218,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -22849,7 +23234,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -22865,7 +23250,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "工具",
@@ -22882,7 +23267,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -22898,7 +23283,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -22914,7 +23299,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "AI",
@@ -22931,7 +23316,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -22947,7 +23332,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "AI",
@@ -22964,7 +23349,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -22978,7 +23363,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "AI",
@@ -22995,7 +23380,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -23011,7 +23396,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -23025,7 +23410,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -23041,7 +23426,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -23057,7 +23442,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T18:13:42.759Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -23193,7 +23578,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -23209,7 +23594,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "AI",
@@ -23226,7 +23611,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -23242,7 +23627,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -23258,7 +23643,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -23274,7 +23659,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "工具",
@@ -23291,7 +23676,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -23305,7 +23690,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -23319,7 +23704,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "工具",
@@ -23336,7 +23721,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "AI"
@@ -23352,7 +23737,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 10,
     "tags": [
       "AI",
@@ -23370,7 +23755,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "趣味"
@@ -23386,7 +23771,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -23400,7 +23785,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "工具",
@@ -23417,7 +23802,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "工具"
@@ -23433,7 +23818,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 1,
     "tags": []
   },
@@ -23447,7 +23832,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 7,
     "tags": [
       "AI",
@@ -23464,7 +23849,7 @@
     "points": 0,
     "comments": 0,
     "publishedAt": "2026-09-06T15:22:53.024Z",
-    "collectedAt": "2026-09-22T11:25:39.064Z",
+    "collectedAt": "2026-09-22T16:48:00.706Z",
     "heat": 3,
     "tags": [
       "开源"
@@ -24796,7 +25181,7 @@
     "points": 6865,
     "comments": 0,
     "publishedAt": "2026-09-05T15:03:27.378Z",
-    "collectedAt": "2026-09-22T11:25:38.777Z",
+    "collectedAt": "2026-09-22T16:48:00.155Z",
     "heat": 63,
     "tags": [
       "AI"
@@ -30057,405 +30442,5 @@
     "tags": [
       "工具"
     ]
-  },
-  {
-    "id": "121cea5820a3713c",
-    "channel": "reddit",
-    "title": "I thought I was building a form builder. I ended up building something else.",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4rpkk/i_thought_i_was_building_a_form_builder_i_ended/",
-    "summary": "I built a form builder and realized most form builders become useless after Submit I realized something while building Formline: Forms are already pretty good at collecting informa…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T22:17:35.000Z",
-    "collectedAt": "2026-09-01T23:58:56.554Z",
-    "heat": 3,
-    "tags": [
-      "教程"
-    ]
-  },
-  {
-    "id": "9bb95970cefc38fe",
-    "channel": "github",
-    "title": "tigerless-labs/agent-memory",
-    "url": "https://github.com/tigerless-labs/agent-memory",
-    "points": 465,
-    "comments": 0,
-    "publishedAt": "2026-09-01T21:52:29Z",
-    "collectedAt": "2026-09-07T22:45:40.574Z",
-    "heat": 45,
-    "tags": [
-      "AI"
-    ],
-    "author": "Python"
-  },
-  {
-    "id": "fd938e518b4efd51",
-    "channel": "producthunt",
-    "title": "FreeScan.app",
-    "url": "https://www.producthunt.com/products/freescan-app",
-    "summary": "Discussion | Link",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T21:33:47.000Z",
-    "collectedAt": "2026-09-11T04:25:00.828Z",
-    "heat": 3,
-    "tags": [
-      "工具"
-    ]
-  },
-  {
-    "id": "4afd8e62a4e67bdb",
-    "channel": "producthunt",
-    "title": "Relaticle",
-    "url": "https://www.producthunt.com/products/relaticle",
-    "summary": "Discussion | Link",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T21:12:23.000Z",
-    "collectedAt": "2026-09-09T04:27:49.227Z",
-    "heat": 1,
-    "tags": []
-  },
-  {
-    "id": "d597474c2fc64aec",
-    "channel": "producthunt",
-    "title": "Claude Fable 5.1",
-    "url": "https://www.producthunt.com/products/claude-fable-5-1",
-    "summary": "Discussion | Link",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T21:04:24.000Z",
-    "collectedAt": "2026-09-03T04:11:08.916Z",
-    "heat": 3,
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "id": "9b1ada4e6910abf9",
-    "channel": "reddit",
-    "title": "TAAFT Newsletter Traffic learnings - expectation vs reality",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4ow5l/taaft_newsletter_traffic_learnings_expectation_vs/",
-    "summary": "My indie Mac app was featured on the There's An AI For That newsletter today. I expected about a few hundred clicks first day and got... about 120 clicks after 12h. Biggest learnin…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T20:44:44.000Z",
-    "collectedAt": "2026-09-01T23:58:56.554Z",
-    "heat": 10,
-    "tags": [
-      "AI",
-      "工具",
-      "变现"
-    ]
-  },
-  {
-    "id": "0afc4ac700168cfc",
-    "channel": "producthunt",
-    "title": "Live Captions by Subanana",
-    "url": "https://www.producthunt.com/products/subanana",
-    "summary": "Discussion | Link",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T20:43:29.000Z",
-    "collectedAt": "2026-09-11T04:25:00.828Z",
-    "heat": 1,
-    "tags": []
-  },
-  {
-    "id": "176037dc70190d7f",
-    "channel": "reddit",
-    "title": "How are frontend engineers actually making money outside their 9 to 5 these days?",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4m289/how_are_frontend_engineers_actually_making_money/",
-    "summary": "I’m a frontend engineer and I’m pretty damn good at UI/UX. I’ve also gotten really good at spec driven AI development, basically taking a product idea or spec and turning it into a…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T19:18:26.000Z",
-    "collectedAt": "2026-09-01T20:57:24.233Z",
-    "heat": 3,
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "id": "5a04f9e6f69cde26",
-    "channel": "producthunt",
-    "title": "Tidy",
-    "url": "https://www.producthunt.com/products/tidy-6",
-    "summary": "Discussion | Link",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T19:04:06.000Z",
-    "collectedAt": "2026-09-04T04:18:37.405Z",
-    "heat": 1,
-    "tags": []
-  },
-  {
-    "id": "4060d5fb1d26c56e",
-    "channel": "simonwillison",
-    "title": "Codex bundles LibreOffice",
-    "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-    "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of s…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T19:03:01.000Z",
-    "collectedAt": "2026-09-05T22:01:43.667Z",
-    "heat": 7,
-    "tags": [
-      "AI",
-      "工具"
-    ]
-  },
-  {
-    "id": "35450daa70e917c3",
-    "channel": "reddit",
-    "title": "I have a Lifetime Pasta Pass to Olive Garden, so I might a website that let's you vote on what I order",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4lj5a/i_have_a_lifetime_pasta_pass_to_olive_garden_so_i/",
-    "summary": "My only request is that if you insult this project (which you probably should), you also cast a vote. Had a lot of fun making this, and I've surprisingly received a little under 1,…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T19:02:49.000Z",
-    "collectedAt": "2026-09-02T11:08:47.169Z",
-    "heat": 3,
-    "tags": [
-      "趣味"
-    ]
-  },
-  {
-    "id": "7866a039efb77179",
-    "channel": "producthunt",
-    "title": "CleanShot 5.0 with Studio Mode",
-    "url": "https://www.producthunt.com/products/cleanshot",
-    "summary": "Discussion | Link",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T18:21:48.000Z",
-    "collectedAt": "2026-09-03T04:11:08.916Z",
-    "heat": 1,
-    "tags": []
-  },
-  {
-    "id": "030da141b03f8dc2",
-    "channel": "reddit",
-    "title": "My side project read 9.2 million news articles in 145 days, and found some interesting patterns",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4k8by/my_side_project_read_92_million_news_articles_in/",
-    "summary": "Solo project, built during nights and weekends: CLSTR reads 100k+ news articles a day from 40k+ sources, figures out which ones are covering the same event, and squashes them into …",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T18:19:09.000Z",
-    "collectedAt": "2026-09-02T16:28:53.974Z",
-    "heat": 3,
-    "tags": [
-      "变现"
-    ]
-  },
-  {
-    "id": "0cf425c452e8fd85",
-    "channel": "simonwillison",
-    "title": "GeoJSON Map Viewer",
-    "url": "https://simonwillison.net/2026/Sep/1/geojson/",
-    "summary": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and …",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T18:05:45.000Z",
-    "collectedAt": "2026-09-05T15:03:27.607Z",
-    "heat": 3,
-    "tags": [
-      "工具"
-    ]
-  },
-  {
-    "id": "f632cad25f3c4fe8",
-    "channel": "simonwillison",
-    "title": "Quoting Tarn Adams",
-    "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
-    "summary": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes &mdas…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T17:01:11.000Z",
-    "collectedAt": "2026-09-04T23:55:47.150Z",
-    "heat": 3,
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "id": "bfa0793e6087ec04",
-    "channel": "v2ex",
-    "title": "「开源」GitPress，像用 WordPress 一样写作，而文章在你自己的 GitHub 上",
-    "url": "https://www.v2ex.com/t/1238793",
-    "summary": "这是什么项目？\r\n\r\nGitPress 是一个博客后台。你可以像用 WordPress 一样登录、写文章，但正文存在你自己的 GitHub 仓库里。保存后自动编成静态网页，挂在 GitHub Pages 上，且你可以随时换上自己的域名。\r\n\r\n官网只是遥控器，哪天即便是 GitPress.net 关停了，你也可以自己通",
-    "author": "uxn",
-    "points": 1,
-    "comments": 1,
-    "publishedAt": "2026-09-01T15:55:08.000Z",
-    "collectedAt": "2026-09-01T23:58:56.198Z",
-    "heat": 21,
-    "tags": [
-      "开源"
-    ]
-  },
-  {
-    "id": "ca5c20c4ca4f246e",
-    "channel": "reddit",
-    "title": "I spent way too long on this project. It’s my opus.",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4fpoa/i_spent_way_too_long_on_this_project_its_my_opus/",
-    "summary": "submitted by /u/Otherwise_Tart3320 [link] [comments]",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:44:22.000Z",
-    "collectedAt": "2026-09-03T00:02:39.032Z",
-    "heat": 1,
-    "tags": []
-  },
-  {
-    "id": "106dc1d44bac6d32",
-    "channel": "v2ex",
-    "title": "Image2Layer：用 AI 将图片转换为可编辑 PSD 图层",
-    "url": "https://www.v2ex.com/t/1238790",
-    "summary": "最近在做设计和内容制作时，我发现一个很常见的问题：很多图片只有一张扁平化的 JPG 或 PNG 文件，想要修改其中的对象、背景或文字，往往需要重新抠图、建立蒙版，再手动整理图层。\r\n\r\n所以我们做了 [Image2Layer]( https://image2layer.com)，这是一个基于 AI 的图片图层处理工具，",
-    "author": "295732356",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:41:05.000Z",
-    "collectedAt": "2026-09-01T23:58:56.198Z",
-    "heat": 7,
-    "tags": [
-      "AI",
-      "工具"
-    ]
-  },
-  {
-    "id": "6553582cfdfb071d",
-    "channel": "producthunt",
-    "title": "Roadie",
-    "url": "https://www.producthunt.com/products/roadie-4",
-    "summary": "Discussion | Link",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:40:57.000Z",
-    "collectedAt": "2026-09-03T04:11:08.916Z",
-    "heat": 1,
-    "tags": []
-  },
-  {
-    "id": "344c2bcd7098482b",
-    "channel": "simonwillison",
-    "title": "datasette-mcp 0.2",
-    "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
-    "summary": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which posi…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:30:12.000Z",
-    "collectedAt": "2026-09-04T16:14:55.139Z",
-    "heat": 7,
-    "tags": [
-      "AI",
-      "变现"
-    ]
-  },
-  {
-    "id": "b0a3fcb68aea7938",
-    "channel": "reddit",
-    "title": "Real estate tax",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4fa37/real_estate_tax/",
-    "summary": "Hi - I recently built a real estate tax appeal software. Started with cook county but plan to expand to all Chicago land. Became fed up with the insane assessment increases and the…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:28:48.000Z",
-    "collectedAt": "2026-09-01T16:30:44.683Z",
-    "heat": 3,
-    "tags": [
-      "工具"
-    ]
-  },
-  {
-    "id": "31578d1529d555b3",
-    "channel": "v2ex",
-    "title": "提取 exe/快捷方式高清图标的小工具，导入原图",
-    "url": "https://www.v2ex.com/t/1238789",
-    "summary": "# 提取 exe/快捷方式高清图标的小工具（纯 JS 解析）\r\n\r\n快速提取 Windows 软件（`.exe`、`.lnk` 快捷方式、`.dll`）的高清图标。\r\n\r\nJS 从二进制文件解析原始的 icon 图标、图片， 多尺寸的 icon 也能解析出来。\r\n\r\n常规的做法要么到处搜透明 PNG ，要么截图（容易有",
-    "author": "v2mo",
-    "points": 4,
-    "comments": 4,
-    "publishedAt": "2026-09-01T15:28:43.000Z",
-    "collectedAt": "2026-09-01T23:58:56.198Z",
-    "heat": 44,
-    "tags": [
-      "工具"
-    ]
-  },
-  {
-    "id": "b296e033249b56a1",
-    "channel": "reddit",
-    "title": "Hey everyone, genune question.",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4exdi/hey_everyone_genune_question/",
-    "summary": "For everyone who has published an app, how long did it take to get people using it and subscribing from lunch? Especially after promoting it submitted by /u/Impressive_Ad6169 [link…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:16:22.000Z",
-    "collectedAt": "2026-09-01T16:30:44.683Z",
-    "heat": 3,
-    "tags": [
-      "工具"
-    ]
-  },
-  {
-    "id": "920e0f3f296ab0da",
-    "channel": "reddit",
-    "title": "I rebuilt my side project into a free American Roots radio hub with 228 live stations",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4eq40/i_rebuilt_my_side_project_into_a_free_american/",
-    "summary": "I’ve been rebuilding a personal side project called American Roots Radio Hub. It started as a Country radio project and grew into a larger hub with: 🤠 124 Country stations 🎸 52 B…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:09:17.000Z",
-    "collectedAt": "2026-09-01T20:57:24.233Z",
-    "heat": 7,
-    "tags": [
-      "变现",
-      "教程"
-    ]
-  },
-  {
-    "id": "8cd7cfa0f257a4e4",
-    "channel": "reddit",
-    "title": "I'm trying to get 300 strangers to write a book together",
-    "url": "https://www.reddit.com/r/SideProject/comments/1w4enfd/im_trying_to_get_300_strangers_to_write_a_book/",
-    "summary": "I had a pretty random idea a few days ago and decided instead of overthinking it, I’d just build it and see what happened. The idea is to get 300 complete strangers to write a book…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:06:36.000Z",
-    "collectedAt": "2026-09-01T23:58:56.554Z",
-    "heat": 3,
-    "tags": [
-      "工具"
-    ]
-  },
-  {
-    "id": "f3b368a2f18a0493",
-    "channel": "producthunt",
-    "title": "49agents IDE",
-    "url": "https://www.producthunt.com/products/49agents-ide",
-    "summary": "Discussion | Link",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T15:06:23.000Z",
-    "collectedAt": "2026-09-10T04:29:13.059Z",
-    "heat": 3,
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "id": "58319d71cb137250",
-    "channel": "simonwillison",
-    "title": "Python 3.15.0 candidate 2 is here!",
-    "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-    "summary": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in Octo…",
-    "points": 0,
-    "comments": 0,
-    "publishedAt": "2026-09-01T14:59:18.000Z",
-    "collectedAt": "2026-09-04T04:18:37.476Z",
-    "heat": 1,
-    "tags": []
   }
 ]
