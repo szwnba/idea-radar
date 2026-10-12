@@ -1,6 +1,6 @@
 {
-  "lastSync": "2026-10-11T23:35:15.620Z",
-  "durationMs": 1679,
+  "lastSync": "2026-10-12T05:44:19.881Z",
+  "durationMs": 5100,
   "sources": [
     {
       "channel": "github",
@@ -24,13 +24,15 @@
     },
     {
       "channel": "ruanyf",
-      "ok": true,
-      "count": 6
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "channel": "indie1000",
-      "ok": true,
-      "count": 46
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "channel": "huggingface",
